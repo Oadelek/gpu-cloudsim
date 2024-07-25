@@ -1,5 +1,9 @@
 package qos
 
+import (
+	"gpu-cloudsim/models"
+)
+
 type QoS struct {
 	// QoS parameters
 	latencyThreshold    float64

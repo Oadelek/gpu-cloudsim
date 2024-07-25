@@ -14,6 +14,8 @@ import (
 )
 
 func main() {
+	fmt.Println("Starting GPU Cloudsim...")
+
 	// Initialize logging
 	logFile := "simulation.log"
 	logFileHandle, err := openLogFile(logFile)
@@ -22,6 +24,8 @@ func main() {
 	}
 	defer logFileHandle.Close()
 	log.SetOutput(logFileHandle)
+
+	fmt.Println("Log file opened and now being read from")
 
 	// Create scheduler
 	schedulingStrategy := &scheduler.PrioritySchedulingStrategy{}
@@ -42,6 +46,8 @@ func main() {
 	b.AddHost(host1)
 	b.AddHost(host2)
 
+	fmt.Println("Brokers, hosts and GPUs have been created and assigned")
+
 	// Create containers with different priorities
 	containers := []*models.Container{
 		models.NewContainer("container-1", 2000, 2048, gpu1, 1),
@@ -57,6 +63,7 @@ func main() {
 
 	// Create orchestrator
 	orch := orchestrator.NewOrchestrator(b, metricsCollector, qosMonitor)
+	fmt.Println("Containers, QoS monitor and orchestrator have all been created")
 
 	// Run orchestrator
 	simulationDuration := 5 * time.Minute
@@ -64,6 +71,8 @@ func main() {
 	if err != nil {
 		log.Fatalf("Error running orchestrator: %v", err)
 	}
+
+	fmt.Println("Orchestration finished, metrics now being collected..")
 
 	// Print final metrics and QoS status
 	finalMetrics := metricsCollector.GetLatestMetrics()

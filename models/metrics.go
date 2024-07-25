@@ -7,8 +7,8 @@ type Metrics struct {
 	IOUsage     float64
 }
 
-func NewMetrics(cpuUsage, memoryUsage, gpuUsage, ioUsage float64) *Metrics {
-	return &Metrics{
+func NewMetrics(cpuUsage, memoryUsage, gpuUsage, ioUsage float64) Metrics {
+	return Metrics{
 		CPUUsage:    cpuUsage,
 		MemoryUsage: memoryUsage,
 		GPUUsage:    gpuUsage,

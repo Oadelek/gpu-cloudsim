@@ -1,3 +1,9 @@
+package scheduler
+
+import (
+	"gpu-cloudsim/models"
+)
+
 type BinPackingStrategy struct{}
 
 func (b *BinPackingStrategy) Allocate(containers []models.Container, gpus []models.GPU) error {
