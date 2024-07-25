@@ -81,7 +81,7 @@ func (o *Orchestrator) monitorQoS(duration time.Duration) {
 			metrics := o.MetricsCollector.GetLatestMetrics()
 			if !o.QoSMonitor.Monitor(metrics) {
 				// QoS violated, trigger reallocation
-				o.triggerReallocation()
+				o.TriggerReallocation()
 			}
 		default:
 			if time.Now().After(end) {
@@ -91,7 +91,7 @@ func (o *Orchestrator) monitorQoS(duration time.Duration) {
 	}
 }
 
-func (o *Orchestrator) triggerReallocation() {
+func (o *Orchestrator) TriggerReallocation() {
 	log.Println("Triggering reallocation due to QoS violation")
 
 	// Get all hosts and their current load

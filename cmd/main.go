@@ -76,7 +76,7 @@ func main() {
 	fmt.Println("Orchestration finished, metrics now being collected...")
 
 	// Simulate workload changes
-	go simulateWorkloadChanges(b, simulationDuration)
+	go simulateWorkloadChanges(b, orch, simulationDuration)
 
 	// Wait for simulation to complete
 	time.Sleep(simulationDuration)
@@ -99,7 +99,7 @@ func openLogFile(filename string) (*os.File, error) {
 	return os.OpenFile(filename, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 }
 
-func simulateWorkloadChanges(b *broker.Broker, duration time.Duration) {
+func simulateWorkloadChanges(b *broker.Broker, orch *orchestrator.Orchestrator, duration time.Duration) {
 	ticker := time.NewTicker(30 * time.Second)
 	defer ticker.Stop()
 
@@ -116,7 +116,7 @@ func simulateWorkloadChanges(b *broker.Broker, duration time.Duration) {
 				}
 			}
 			log.Println("Workload changed. Triggering reallocation...")
-			b.TriggerReallocation()
+			orch.TriggerReallocation() // Call the orchestrator's method instead
 		default:
 			if time.Now().After(end) {
 				return
