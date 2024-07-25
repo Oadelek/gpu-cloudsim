@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"gpu-cloudsim/models"
 	"gpu-cloudsim/pkg/broker"
-	"gpu-cloudsim/pkg/metrics"
 	"gpu-cloudsim/pkg/orchestrator"
 	"gpu-cloudsim/pkg/qos"
 	"gpu-cloudsim/pkg/scheduler"
 	"log"
+	"math/rand"
 	"os"
 	"time"
 )
@@ -24,8 +24,7 @@ func main() {
 	}
 	defer logFileHandle.Close()
 	log.SetOutput(logFileHandle)
-
-	fmt.Println("Log file opened and now being read from")
+	fmt.Println("Log file opened...")
 
 	// Create scheduler
 	schedulingStrategy := &scheduler.PrioritySchedulingStrategy{}
@@ -34,8 +33,8 @@ func main() {
 	b := broker.NewBroker(schedulingStrategy)
 
 	// Create hosts
-	host1 := models.NewHost("host-1", 16, 32768) // 16 cores, 32 GB RAM
-	host2 := models.NewHost("host-2", 32, 65536) // 32 cores, 64 GB RAM
+	host1 := models.NewHost("host-1", 32, 65536)  // 32 cores, 64 GB RAM
+	host2 := models.NewHost("host-2", 64, 131072) // 64 cores, 128 GB RAM
 
 	// Add GPUs to hosts
 	gpu1 := models.NewGPU("gpu-1", 3584, 224, 8192, 900, 13.4, 250)
@@ -48,21 +47,23 @@ func main() {
 
 	fmt.Println("Brokers, hosts and GPUs have been created and assigned")
 
-	// Create containers with different priorities
+	// Create containers with different priorities and realistic resource requests
 	containers := []*models.Container{
-		models.NewContainer("container-1", 2000, 2048, gpu1, 1),
-		models.NewContainer("container-2", 1500, 1024, gpu1, 2),
-		models.NewContainer("container-3", 1000, 512, gpu2, 3),
+		models.NewContainer("container-1", 8000, 16384, gpu1, 1), // 8 cores, 16 GB RAM
+		models.NewContainer("container-2", 4000, 8192, gpu1, 2),  // 4 cores, 8 GB RAM
+		models.NewContainer("container-3", 2000, 4096, gpu2, 3),  // 2 cores, 4 GB RAM
 	}
 
-	// Create metrics collector
-	metricsCollector := metrics.NewMetricsCollector()
-
-	// Create QoS monitor
-	qosMonitor := qos.NewQoS(70.0, 1500.0) // Example thresholds
+	// Create QoS monitor with realistic thresholds
+	cpuThreshold := 80.0    // CPU usage threshold in percentage
+	memoryThreshold := 85.0 // Memory usage threshold in percentage
+	gpuThreshold := 90.0    // GPU usage threshold in percentage
+	ioThreshold := 75.0     // IO usage threshold in percentage
+	qosMonitor := qos.NewQoS(cpuThreshold, memoryThreshold, gpuThreshold, ioThreshold)
 
 	// Create orchestrator
-	orch := orchestrator.NewOrchestrator(b, metricsCollector, qosMonitor)
+	orch := orchestrator.NewOrchestrator(b, qosMonitor)
+
 	fmt.Println("Containers, QoS monitor and orchestrator have all been created")
 
 	// Run orchestrator
@@ -72,10 +73,16 @@ func main() {
 		log.Fatalf("Error running orchestrator: %v", err)
 	}
 
-	fmt.Println("Orchestration finished, metrics now being collected..")
+	fmt.Println("Orchestration finished, metrics now being collected...")
+
+	// Simulate workload changes
+	go simulateWorkloadChanges(b, simulationDuration)
+
+	// Wait for simulation to complete
+	time.Sleep(simulationDuration)
 
 	// Print final metrics and QoS status
-	finalMetrics := metricsCollector.GetLatestMetrics()
+	finalMetrics := b.GetCurrentMetrics()
 	log.Printf("Final metrics: %+v\n", finalMetrics)
 
 	isQoSMet := qosMonitor.Monitor(finalMetrics)
@@ -90,4 +97,31 @@ func main() {
 
 func openLogFile(filename string) (*os.File, error) {
 	return os.OpenFile(filename, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+}
+
+func simulateWorkloadChanges(b *broker.Broker, duration time.Duration) {
+	ticker := time.NewTicker(30 * time.Second)
+	defer ticker.Stop()
+
+	end := time.Now().Add(duration)
+
+	for {
+		select {
+		case <-ticker.C:
+			// Simulate random workload changes
+			for _, host := range b.Hosts {
+				for _, container := range host.Containers {
+					container.CPURequest = int(float64(container.CPURequest) * (0.8 + rand.Float64()*0.4))       // +/- 20%
+					container.MemoryRequest = int(float64(container.MemoryRequest) * (0.8 + rand.Float64()*0.4)) // +/- 20%
+				}
+			}
+			log.Println("Workload changed. Triggering reallocation...")
+			b.TriggerReallocation()
+		default:
+			if time.Now().After(end) {
+				return
+			}
+			time.Sleep(time.Second)
+		}
+	}
 }

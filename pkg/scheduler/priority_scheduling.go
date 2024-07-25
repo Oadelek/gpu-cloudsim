@@ -31,10 +31,24 @@ func (p *PrioritySchedulingStrategy) Schedule(containers []*models.Container, ho
 }
 
 func canAllocate(container *models.Container, host *models.Host) bool {
-	// Check if the host has enough resources for the container
-	return host.CPUCores >= container.CPURequest &&
-		host.Memory >= container.MemoryRequest &&
-		len(host.GPUs) > 0 &&
-		host.GPUs[0].CUDACores >= container.GPURequest.CUDACores &&
-		host.GPUs[0].VRAM >= container.GPURequest.VRAM
+	// Check CPU cores (convert millicores to cores)
+	if float64(host.CPUCores) < float64(container.CPURequest)/1000 {
+		return false
+	}
+
+	// Check Memory
+	if host.Memory < container.MemoryRequest {
+		return false
+	}
+
+	// Check if any GPU on the host meets the requirements
+	for _, gpu := range host.GPUs {
+		if gpu.CUDACores >= container.GPURequest.CUDACores &&
+			gpu.VRAM >= container.GPURequest.VRAM &&
+			gpu.MemoryBandwidth >= container.GPURequest.MemoryBandwidth {
+			return true // Found a suitable GPU
+		}
+	}
+
+	return false
 }

@@ -2,29 +2,25 @@ package metrics
 
 import (
 	"gpu-cloudsim/models"
-	"math/rand"
+	"gpu-cloudsim/pkg/broker"
 	"sync"
 )
 
 type MetricsCollector struct {
 	metrics []models.Metrics
 	mu      sync.Mutex
+	broker  *broker.Broker
 }
 
-func NewMetricsCollector() *MetricsCollector {
+func NewMetricsCollector(broker *broker.Broker) *MetricsCollector {
 	return &MetricsCollector{
 		metrics: []models.Metrics{},
+		broker:  broker,
 	}
 }
 
 func (m *MetricsCollector) CollectMetrics() models.Metrics {
-	// Simulate metrics collection
-	return models.NewMetrics(
-		rand.Float64()*100,
-		rand.Float64()*100,
-		rand.Float64()*100,
-		rand.Float64()*100,
-	)
+	return m.broker.GetCurrentMetrics()
 }
 
 func (m *MetricsCollector) AddMetrics(metrics models.Metrics) {

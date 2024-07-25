@@ -6,20 +6,27 @@ import (
 
 type QoS struct {
 	// QoS parameters
-	latencyThreshold    float64
-	throughputThreshold float64
+	cpuUsageThreshold    float64
+	memoryUsageThreshold float64
+	gpuUsageThreshold    float64
+	ioUsageThreshold     float64
 }
 
-func NewQoS(latencyThreshold, throughputThreshold float64) *QoS {
+func NewQoS(cpuUsageThreshold, memoryUsageThreshold, gpuUsageThreshold, ioUsageThreshold float64) *QoS {
 	return &QoS{
-		latencyThreshold:    latencyThreshold,
-		throughputThreshold: throughputThreshold,
+		cpuUsageThreshold:    cpuUsageThreshold,
+		memoryUsageThreshold: memoryUsageThreshold,
+		gpuUsageThreshold:    gpuUsageThreshold,
+		ioUsageThreshold:     ioUsageThreshold,
 	}
 }
 
 func (q *QoS) Monitor(metrics models.Metrics) bool {
 	// Monitor QoS requirements
-	if metrics.CPUUsage > q.latencyThreshold || metrics.MemoryUsage > q.throughputThreshold {
+	if metrics.CPUUsage > q.cpuUsageThreshold ||
+		metrics.MemoryUsage > q.memoryUsageThreshold ||
+		metrics.GPUUsage > q.gpuUsageThreshold ||
+		metrics.IOUsage > q.ioUsageThreshold {
 		return false // QoS requirements not met
 	}
 	return true // QoS requirements met
