@@ -57,7 +57,7 @@ func (o *Orchestrator) Run(containers []*models.Container, duration time.Duratio
 
 func (o *Orchestrator) collectMetrics(duration time.Duration) {
 	o.Logger.Println("Starting metrics collection")
-	ticker := time.NewTicker(time.Second)
+	ticker := time.NewTicker(10 * time.Second)
 	defer ticker.Stop()
 
 	end := time.Now().Add(duration)
@@ -67,6 +67,11 @@ func (o *Orchestrator) collectMetrics(duration time.Duration) {
 		case <-ticker.C:
 			metrics := o.MetricsCollector.CollectMetrics()
 			o.MetricsCollector.AddMetrics(metrics)
+			o.Logger.Printf("Time: %s, CPU: %.2f%%, Memory: %.2f%%, GPU: %.2f%%\n",
+				time.Now().Format("15:04:05"),
+				metrics.CPUUsage,
+				metrics.MemoryUsage,
+				metrics.GPUUsage)
 		default:
 			if time.Now().After(end) {
 				return
@@ -144,8 +149,6 @@ func (o *Orchestrator) TriggerReallocation() {
 }
 
 func (o *Orchestrator) calculateHostLoad(host *models.Host) float64 {
-	o.Logger.Println("Calculating host load")
-
 	totalCPU := float64(host.CPUCores)
 	totalMemory := float64(host.Memory)
 	usedCPU := 0.0
@@ -191,6 +194,12 @@ func (o *Orchestrator) migrateContainer(container *models.Container, sourceHost,
 	if len(destHost.GPUs) > 0 {
 		container.GPURequest = destHost.GPUs[0]
 	}
+
+	o.Logger.Printf("Time: %s, Migrated container %s from host %s to host %s\n",
+		time.Now().Format("15:04:05"),
+		container.ID,
+		sourceHost.ID,
+		destHost.ID)
 }
 
 func canAllocate(container *models.Container, host *models.Host) bool {

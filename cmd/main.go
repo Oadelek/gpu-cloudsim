@@ -85,6 +85,33 @@ func runSimulation(name string, strategy scheduler.Scheduler, hosts []*models.Ho
 	logger.Printf("%s simulation complete.\n", name)
 }
 
+func simulateWorkloadChanges(orch *orchestrator.Orchestrator, duration time.Duration, logger *log.Logger) {
+	ticker := time.NewTicker(workloadChangeInterval)
+	defer ticker.Stop()
+
+	end := time.Now().Add(duration)
+
+	for {
+		select {
+		case <-ticker.C:
+			// Simulate random workload changes
+			for _, host := range orch.Broker.Hosts {
+				for _, container := range host.Containers {
+					container.CPURequest = int(float64(container.CPURequest) * (0.8 + rand.Float64()*0.4))       // +/- 20%
+					container.MemoryRequest = int(float64(container.MemoryRequest) * (0.8 + rand.Float64()*0.4)) // +/- 20%
+				}
+			}
+			logger.Println("Workload changed. Triggering reallocation...")
+			orch.TriggerReallocation()
+		default:
+			if time.Now().After(end) {
+				return
+			}
+			time.Sleep(time.Second)
+		}
+	}
+}
+
 func createHosts() []*models.Host {
 	return []*models.Host{
 		models.NewHost("host-1", 32, 65536),   // 32 cores, 64 GB RAM
@@ -139,31 +166,4 @@ func setupLogger(filename string) *log.Logger {
 		log.Fatalf("Error opening log file %s: %v", filename, err)
 	}
 	return log.New(file, "", log.LstdFlags)
-}
-
-func simulateWorkloadChanges(orch *orchestrator.Orchestrator, duration time.Duration, logger *log.Logger) {
-	ticker := time.NewTicker(workloadChangeInterval)
-	defer ticker.Stop()
-
-	end := time.Now().Add(duration)
-
-	for {
-		select {
-		case <-ticker.C:
-			// Simulate random workload changes
-			for _, host := range orch.Broker.Hosts {
-				for _, container := range host.Containers {
-					container.CPURequest = int(float64(container.CPURequest) * (0.8 + rand.Float64()*0.4))       // +/- 20%
-					container.MemoryRequest = int(float64(container.MemoryRequest) * (0.8 + rand.Float64()*0.4)) // +/- 20%
-				}
-			}
-			logger.Println("Workload changed. Triggering reallocation...")
-			orch.TriggerReallocation()
-		default:
-			if time.Now().After(end) {
-				return
-			}
-			time.Sleep(time.Second)
-		}
-	}
 }
