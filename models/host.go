@@ -55,8 +55,18 @@ func (h *Host) GetGPUUsage() float64 {
 	if len(h.GPUs) == 0 {
 		return 0
 	}
-	// This is a simplified version.
-	return (float64(len(h.Containers)) / float64(len(h.GPUs))) * 100 // Return as percentage
+
+	totalGPUCores := 0
+	for _, gpu := range h.GPUs {
+		totalGPUCores += gpu.CUDACores
+	}
+
+	usedGPUCores := 0
+	for _, container := range h.Containers {
+		usedGPUCores += container.GPURequest.CUDACores
+	}
+
+	return (float64(usedGPUCores) / float64(totalGPUCores)) * 100
 }
 
 func (h *Host) GetIOUsage() float64 {

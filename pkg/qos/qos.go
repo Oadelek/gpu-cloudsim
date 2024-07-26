@@ -1,6 +1,7 @@
 package qos
 
 import (
+	"fmt"
 	"gpu-cloudsim/models"
 )
 
@@ -22,11 +23,21 @@ func NewQoS(cpuUsageThreshold, memoryUsageThreshold, gpuUsageThreshold, ioUsageT
 }
 
 func (q *QoS) Monitor(metrics models.Metrics) bool {
-	// Monitor QoS requirements
-	if metrics.CPUUsage > q.cpuUsageThreshold ||
-		metrics.MemoryUsage > q.memoryUsageThreshold ||
-		metrics.GPUUsage > q.gpuUsageThreshold ||
-		metrics.IOUsage > q.ioUsageThreshold {
+	// Monitor QoS requirements and print the violated requirement
+	if metrics.CPUUsage > q.cpuUsageThreshold {
+		fmt.Printf("CPU usage violated: %f > %f\n", metrics.CPUUsage, q.cpuUsageThreshold)
+		return false // QoS requirements not met
+	}
+	if metrics.MemoryUsage > q.memoryUsageThreshold {
+		fmt.Printf("Memory usage violated: %f > %f\n", metrics.MemoryUsage, q.memoryUsageThreshold)
+		return false // QoS requirements not met
+	}
+	if metrics.GPUUsage > q.gpuUsageThreshold {
+		fmt.Printf("GPU usage violated: %f > %f\n", metrics.GPUUsage, q.gpuUsageThreshold)
+		return false // QoS requirements not met
+	}
+	if metrics.IOUsage > q.ioUsageThreshold {
+		fmt.Printf("IO usage violated: %f > %f\n", metrics.IOUsage, q.ioUsageThreshold)
 		return false // QoS requirements not met
 	}
 	return true // QoS requirements met

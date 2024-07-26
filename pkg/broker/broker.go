@@ -36,6 +36,10 @@ func (b *Broker) GetCurrentMetrics() models.Metrics {
 	}
 
 	totalHosts := float64(len(b.Hosts))
+	if totalHosts == 0 {
+		return models.NewMetrics(0, 0, 0, 0)
+	}
+
 	return models.NewMetrics(
 		cpuUsage/totalHosts,
 		memoryUsage/totalHosts,
