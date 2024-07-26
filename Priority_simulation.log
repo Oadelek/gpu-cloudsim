@@ -1,0 +1,93 @@
+2024/07/25 21:26:51 Starting Priority simulation
+2024/07/25 21:26:51 Starting orchestrator run
+2024/07/25 21:26:51 Starting QoS monitoring
+2024/07/25 21:26:51 Starting metrics collection
+2024/07/25 21:26:53 Triggering reallocation due to QoS violation
+2024/07/25 21:26:53 Calculating host load
+2024/07/25 21:26:53 Calculating host load
+2024/07/25 21:26:53 Calculating host load
+2024/07/25 21:26:53 Calculating host load
+2024/07/25 21:26:53 Calculating host load
+2024/07/25 21:26:53 Calculating host load
+2024/07/25 21:26:53 Calculating host load
+2024/07/25 21:26:53 Migrated container container-3 from host host-1 to host host-3
+2024/07/25 21:26:53 Calculating host load
+2024/07/25 21:26:53 Calculating host load
+2024/07/25 21:26:53 Migrated container container-8 from host host-1 to host host-5
+2024/07/25 21:26:53 Calculating host load
+2024/07/25 21:26:53 Calculating host load
+2024/07/25 21:26:53 Migrated container container-7 from host host-1 to host host-4
+2024/07/25 21:31:51 Orchestrator run completed
+2024/07/25 21:32:21 Workload changed. Triggering reallocation...
+2024/07/25 21:32:21 Triggering reallocation due to QoS violation
+2024/07/25 21:32:21 Calculating host load
+2024/07/25 21:32:21 Calculating host load
+2024/07/25 21:32:21 Calculating host load
+2024/07/25 21:32:21 Calculating host load
+2024/07/25 21:32:21 Calculating host load
+2024/07/25 21:32:51 Workload changed. Triggering reallocation...
+2024/07/25 21:32:51 Triggering reallocation due to QoS violation
+2024/07/25 21:32:51 Calculating host load
+2024/07/25 21:32:51 Calculating host load
+2024/07/25 21:32:51 Calculating host load
+2024/07/25 21:32:51 Calculating host load
+2024/07/25 21:32:51 Calculating host load
+2024/07/25 21:33:22 Workload changed. Triggering reallocation...
+2024/07/25 21:33:22 Triggering reallocation due to QoS violation
+2024/07/25 21:33:22 Calculating host load
+2024/07/25 21:33:22 Calculating host load
+2024/07/25 21:33:22 Calculating host load
+2024/07/25 21:33:22 Calculating host load
+2024/07/25 21:33:22 Calculating host load
+2024/07/25 21:33:52 Workload changed. Triggering reallocation...
+2024/07/25 21:33:52 Triggering reallocation due to QoS violation
+2024/07/25 21:33:52 Calculating host load
+2024/07/25 21:33:52 Calculating host load
+2024/07/25 21:33:52 Calculating host load
+2024/07/25 21:33:52 Calculating host load
+2024/07/25 21:33:52 Calculating host load
+2024/07/25 21:34:22 Workload changed. Triggering reallocation...
+2024/07/25 21:34:22 Triggering reallocation due to QoS violation
+2024/07/25 21:34:22 Calculating host load
+2024/07/25 21:34:22 Calculating host load
+2024/07/25 21:34:22 Calculating host load
+2024/07/25 21:34:22 Calculating host load
+2024/07/25 21:34:22 Calculating host load
+2024/07/25 21:34:51 Workload changed. Triggering reallocation...
+2024/07/25 21:34:51 Triggering reallocation due to QoS violation
+2024/07/25 21:34:51 Calculating host load
+2024/07/25 21:34:51 Calculating host load
+2024/07/25 21:34:51 Calculating host load
+2024/07/25 21:34:51 Calculating host load
+2024/07/25 21:34:51 Calculating host load
+2024/07/25 21:35:21 Workload changed. Triggering reallocation...
+2024/07/25 21:35:21 Triggering reallocation due to QoS violation
+2024/07/25 21:35:21 Calculating host load
+2024/07/25 21:35:21 Calculating host load
+2024/07/25 21:35:21 Calculating host load
+2024/07/25 21:35:21 Calculating host load
+2024/07/25 21:35:21 Calculating host load
+2024/07/25 21:35:51 Workload changed. Triggering reallocation...
+2024/07/25 21:35:51 Triggering reallocation due to QoS violation
+2024/07/25 21:35:51 Calculating host load
+2024/07/25 21:35:51 Calculating host load
+2024/07/25 21:35:51 Calculating host load
+2024/07/25 21:35:51 Calculating host load
+2024/07/25 21:35:51 Calculating host load
+2024/07/25 21:36:22 Workload changed. Triggering reallocation...
+2024/07/25 21:36:22 Triggering reallocation due to QoS violation
+2024/07/25 21:36:22 Calculating host load
+2024/07/25 21:36:22 Calculating host load
+2024/07/25 21:36:22 Calculating host load
+2024/07/25 21:36:22 Calculating host load
+2024/07/25 21:36:22 Calculating host load
+2024/07/25 21:36:51 Final metrics: {CPUUsage:16.901875 MemoryUsage:20.26622772216797 GPUUsage:92.79023485475099 IOUsage:50}
+2024/07/25 21:36:51 QoS requirements met.
+2024/07/25 21:36:51 Priority simulation complete.
+2024/07/25 21:36:52 Workload changed. Triggering reallocation...
+2024/07/25 21:36:52 Triggering reallocation due to QoS violation
+2024/07/25 21:36:52 Calculating host load
+2024/07/25 21:36:52 Calculating host load
+2024/07/25 21:36:52 Calculating host load
+2024/07/25 21:36:52 Calculating host load
+2024/07/25 21:36:52 Calculating host load

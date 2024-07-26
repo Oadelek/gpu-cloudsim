@@ -18,6 +18,28 @@ func NewHost(id string, cpuCores, memory int) *Host {
 	}
 }
 
+func (h *Host) Clone() *Host {
+	clonedHost := &Host{
+		ID:         h.ID,
+		CPUCores:   h.CPUCores,
+		Memory:     h.Memory,
+		GPUs:       make([]*GPU, len(h.GPUs)),
+		Containers: make([]*Container, len(h.Containers)),
+	}
+
+	// Deep copy GPUs
+	for i, gpu := range h.GPUs {
+		clonedHost.GPUs[i] = gpu.Clone()
+	}
+
+	// Deep copy Containers
+	for i, container := range h.Containers {
+		clonedHost.Containers[i] = container.Clone()
+	}
+
+	return clonedHost
+}
+
 func (h *Host) AddContainer(c *Container) {
 	h.Containers = append(h.Containers, c)
 }

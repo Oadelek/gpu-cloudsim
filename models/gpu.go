@@ -21,3 +21,15 @@ func NewGPU(id string, cudaCores, tensorCores, vram, memoryBandwidth int, tflops
 		PowerConsumption: powerConsumption,
 	}
 }
+
+func (g *GPU) Clone() *GPU {
+	return &GPU{
+		ID:               g.ID,
+		CUDACores:        g.CUDACores,
+		TensorCores:      g.TensorCores,
+		VRAM:             g.VRAM,
+		MemoryBandwidth:  g.MemoryBandwidth,
+		TFLOPS:           g.TFLOPS,
+		PowerConsumption: g.PowerConsumption,
+	}
+}

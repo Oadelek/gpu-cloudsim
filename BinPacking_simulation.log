@@ -1,0 +1,86 @@
+2024/07/25 21:02:12 Starting BinPacking simulation
+2024/07/25 21:02:12 Starting orchestrator run
+2024/07/25 21:02:12 Error allocating resources: unable to allocate resources for container container-1
+2024/07/25 21:02:12 Error running orchestrator: unable to allocate resources for container container-1
+2024/07/25 21:03:42 Starting BinPacking simulation
+2024/07/25 21:03:42 Starting orchestrator run
+2024/07/25 21:03:42 Error allocating resources: unable to allocate resources for container container-1
+2024/07/25 21:03:42 Error running orchestrator: unable to allocate resources for container container-1
+2024/07/25 21:36:51 Starting BinPacking simulation
+2024/07/25 21:36:51 Starting orchestrator run
+2024/07/25 21:36:51 Starting QoS monitoring
+2024/07/25 21:36:51 Starting metrics collection
+2024/07/25 21:41:51 Orchestrator run completed
+2024/07/25 21:42:21 Workload changed. Triggering reallocation...
+2024/07/25 21:42:21 Triggering reallocation due to QoS violation
+2024/07/25 21:42:21 Calculating host load
+2024/07/25 21:42:21 Calculating host load
+2024/07/25 21:42:21 Calculating host load
+2024/07/25 21:42:21 Calculating host load
+2024/07/25 21:42:21 Calculating host load
+2024/07/25 21:42:51 Workload changed. Triggering reallocation...
+2024/07/25 21:42:51 Triggering reallocation due to QoS violation
+2024/07/25 21:42:51 Calculating host load
+2024/07/25 21:42:51 Calculating host load
+2024/07/25 21:42:51 Calculating host load
+2024/07/25 21:42:51 Calculating host load
+2024/07/25 21:42:51 Calculating host load
+2024/07/25 21:43:22 Workload changed. Triggering reallocation...
+2024/07/25 21:43:22 Triggering reallocation due to QoS violation
+2024/07/25 21:43:22 Calculating host load
+2024/07/25 21:43:22 Calculating host load
+2024/07/25 21:43:22 Calculating host load
+2024/07/25 21:43:22 Calculating host load
+2024/07/25 21:43:22 Calculating host load
+2024/07/25 21:43:52 Workload changed. Triggering reallocation...
+2024/07/25 21:43:52 Triggering reallocation due to QoS violation
+2024/07/25 21:43:52 Calculating host load
+2024/07/25 21:43:52 Calculating host load
+2024/07/25 21:43:52 Calculating host load
+2024/07/25 21:43:52 Calculating host load
+2024/07/25 21:43:52 Calculating host load
+2024/07/25 21:44:22 Workload changed. Triggering reallocation...
+2024/07/25 21:44:22 Triggering reallocation due to QoS violation
+2024/07/25 21:44:22 Calculating host load
+2024/07/25 21:44:22 Calculating host load
+2024/07/25 21:44:22 Calculating host load
+2024/07/25 21:44:22 Calculating host load
+2024/07/25 21:44:22 Calculating host load
+2024/07/25 21:44:51 Workload changed. Triggering reallocation...
+2024/07/25 21:44:51 Triggering reallocation due to QoS violation
+2024/07/25 21:44:51 Calculating host load
+2024/07/25 21:44:51 Calculating host load
+2024/07/25 21:44:51 Calculating host load
+2024/07/25 21:44:51 Calculating host load
+2024/07/25 21:44:51 Calculating host load
+2024/07/25 21:45:21 Workload changed. Triggering reallocation...
+2024/07/25 21:45:21 Triggering reallocation due to QoS violation
+2024/07/25 21:45:21 Calculating host load
+2024/07/25 21:45:21 Calculating host load
+2024/07/25 21:45:21 Calculating host load
+2024/07/25 21:45:21 Calculating host load
+2024/07/25 21:45:21 Calculating host load
+2024/07/25 21:45:51 Workload changed. Triggering reallocation...
+2024/07/25 21:45:51 Triggering reallocation due to QoS violation
+2024/07/25 21:45:51 Calculating host load
+2024/07/25 21:45:51 Calculating host load
+2024/07/25 21:45:51 Calculating host load
+2024/07/25 21:45:51 Calculating host load
+2024/07/25 21:45:51 Calculating host load
+2024/07/25 21:46:22 Workload changed. Triggering reallocation...
+2024/07/25 21:46:22 Triggering reallocation due to QoS violation
+2024/07/25 21:46:22 Calculating host load
+2024/07/25 21:46:22 Calculating host load
+2024/07/25 21:46:22 Calculating host load
+2024/07/25 21:46:22 Calculating host load
+2024/07/25 21:46:22 Calculating host load
+2024/07/25 21:46:51 Final metrics: {CPUUsage:33.339062500000004 MemoryUsage:39.64090983072917 GPUUsage:91.6922826277665 IOUsage:50}
+2024/07/25 21:46:51 QoS requirements met.
+2024/07/25 21:46:51 BinPacking simulation complete.
+2024/07/25 21:46:52 Workload changed. Triggering reallocation...
+2024/07/25 21:46:52 Triggering reallocation due to QoS violation
+2024/07/25 21:46:52 Calculating host load
+2024/07/25 21:46:52 Calculating host load
+2024/07/25 21:46:52 Calculating host load
+2024/07/25 21:46:52 Calculating host load
+2024/07/25 21:46:52 Calculating host load

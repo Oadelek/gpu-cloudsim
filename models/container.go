@@ -17,3 +17,13 @@ func NewContainer(id string, cpuRequest, memoryRequest int, gpuRequest *GPU, pri
 		Priority:      priority,
 	}
 }
+
+func (c *Container) Clone() *Container {
+	return &Container{
+		ID:            c.ID,
+		CPURequest:    c.CPURequest,
+		MemoryRequest: c.MemoryRequest,
+		GPURequest:    c.GPURequest.Clone(),
+		Priority:      c.Priority,
+	}
+}

@@ -1,0 +1,71 @@
+2024/07/25 21:46:51 Starting RoundRobin simulation
+2024/07/25 21:46:51 Starting orchestrator run
+2024/07/25 21:46:51 Starting metrics collection
+2024/07/25 21:46:51 Starting QoS monitoring
+2024/07/25 21:51:51 Orchestrator run completed
+2024/07/25 21:52:21 Workload changed. Triggering reallocation...
+2024/07/25 21:52:21 Triggering reallocation due to QoS violation
+2024/07/25 21:52:21 Calculating host load
+2024/07/25 21:52:21 Calculating host load
+2024/07/25 21:52:21 Calculating host load
+2024/07/25 21:52:21 Calculating host load
+2024/07/25 21:52:21 Calculating host load
+2024/07/25 21:52:51 Workload changed. Triggering reallocation...
+2024/07/25 21:52:51 Triggering reallocation due to QoS violation
+2024/07/25 21:52:51 Calculating host load
+2024/07/25 21:52:51 Calculating host load
+2024/07/25 21:52:51 Calculating host load
+2024/07/25 21:52:51 Calculating host load
+2024/07/25 21:52:51 Calculating host load
+2024/07/25 21:53:22 Workload changed. Triggering reallocation...
+2024/07/25 21:53:22 Triggering reallocation due to QoS violation
+2024/07/25 21:53:22 Calculating host load
+2024/07/25 21:53:22 Calculating host load
+2024/07/25 21:53:22 Calculating host load
+2024/07/25 21:53:22 Calculating host load
+2024/07/25 21:53:22 Calculating host load
+2024/07/25 21:53:52 Workload changed. Triggering reallocation...
+2024/07/25 21:53:52 Triggering reallocation due to QoS violation
+2024/07/25 21:53:52 Calculating host load
+2024/07/25 21:53:52 Calculating host load
+2024/07/25 21:53:52 Calculating host load
+2024/07/25 21:53:52 Calculating host load
+2024/07/25 21:53:52 Calculating host load
+2024/07/25 21:54:22 Workload changed. Triggering reallocation...
+2024/07/25 21:54:22 Triggering reallocation due to QoS violation
+2024/07/25 21:54:22 Calculating host load
+2024/07/25 21:54:22 Calculating host load
+2024/07/25 21:54:22 Calculating host load
+2024/07/25 21:54:22 Calculating host load
+2024/07/25 21:54:22 Calculating host load
+2024/07/25 21:54:51 Workload changed. Triggering reallocation...
+2024/07/25 21:54:51 Triggering reallocation due to QoS violation
+2024/07/25 21:54:51 Calculating host load
+2024/07/25 21:54:51 Calculating host load
+2024/07/25 21:54:51 Calculating host load
+2024/07/25 21:54:51 Calculating host load
+2024/07/25 21:54:51 Calculating host load
+2024/07/25 21:55:21 Workload changed. Triggering reallocation...
+2024/07/25 21:55:21 Triggering reallocation due to QoS violation
+2024/07/25 21:55:21 Calculating host load
+2024/07/25 21:55:21 Calculating host load
+2024/07/25 21:55:21 Calculating host load
+2024/07/25 21:55:21 Calculating host load
+2024/07/25 21:55:21 Calculating host load
+2024/07/25 21:55:52 Workload changed. Triggering reallocation...
+2024/07/25 21:55:52 Triggering reallocation due to QoS violation
+2024/07/25 21:55:52 Calculating host load
+2024/07/25 21:55:52 Calculating host load
+2024/07/25 21:55:52 Calculating host load
+2024/07/25 21:55:52 Calculating host load
+2024/07/25 21:55:52 Calculating host load
+2024/07/25 21:56:22 Workload changed. Triggering reallocation...
+2024/07/25 21:56:22 Triggering reallocation due to QoS violation
+2024/07/25 21:56:22 Calculating host load
+2024/07/25 21:56:22 Calculating host load
+2024/07/25 21:56:22 Calculating host load
+2024/07/25 21:56:22 Calculating host load
+2024/07/25 21:56:22 Calculating host load
+2024/07/25 21:56:51 Final metrics: {CPUUsage:52.686354166666675 MemoryUsage:60.46745300292969 GPUUsage:86.59927647024422 IOUsage:50}
+2024/07/25 21:56:51 QoS requirements met.
+2024/07/25 21:56:51 RoundRobin simulation complete.

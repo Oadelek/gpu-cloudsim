@@ -15,19 +15,23 @@ type Orchestrator struct {
 	Broker           *broker.Broker
 	MetricsCollector *metrics.MetricsCollector
 	QoSMonitor       *qos.QoS
+	Logger           *log.Logger
 }
 
-func NewOrchestrator(broker *broker.Broker, qosMonitor *qos.QoS) *Orchestrator {
+func NewOrchestrator(broker *broker.Broker, qosMonitor *qos.QoS, logger *log.Logger) *Orchestrator {
 	return &Orchestrator{
 		Broker:           broker,
 		MetricsCollector: metrics.NewMetricsCollector(broker),
 		QoSMonitor:       qosMonitor,
+		Logger:           logger,
 	}
 }
 
 func (o *Orchestrator) Run(containers []*models.Container, duration time.Duration) error {
+	o.Logger.Println("Starting orchestrator run")
 	err := o.Broker.AllocateResources(containers)
 	if err != nil {
+		o.Logger.Printf("Error allocating resources: %v", err)
 		return err
 	}
 
@@ -47,10 +51,12 @@ func (o *Orchestrator) Run(containers []*models.Container, duration time.Duratio
 	}()
 
 	wg.Wait()
+	o.Logger.Println("Orchestrator run completed")
 	return nil
 }
 
 func (o *Orchestrator) collectMetrics(duration time.Duration) {
+	o.Logger.Println("Starting metrics collection")
 	ticker := time.NewTicker(time.Second)
 	defer ticker.Stop()
 
@@ -70,6 +76,7 @@ func (o *Orchestrator) collectMetrics(duration time.Duration) {
 }
 
 func (o *Orchestrator) monitorQoS(duration time.Duration) {
+	o.Logger.Println("Starting QoS monitoring")
 	ticker := time.NewTicker(time.Second)
 	defer ticker.Stop()
 
@@ -92,7 +99,7 @@ func (o *Orchestrator) monitorQoS(duration time.Duration) {
 }
 
 func (o *Orchestrator) TriggerReallocation() {
-	log.Println("Triggering reallocation due to QoS violation")
+	o.Logger.Println("Triggering reallocation due to QoS violation")
 
 	// Get all hosts and their current load
 	hosts := o.Broker.Hosts
@@ -124,7 +131,7 @@ func (o *Orchestrator) TriggerReallocation() {
 				hostLoads[sourceHost] = o.calculateHostLoad(sourceHost)
 				hostLoads[destHost] = o.calculateHostLoad(destHost)
 
-				log.Printf("Migrated container %s from host %s to host %s\n",
+				o.Logger.Printf("Migrated container %s from host %s to host %s\n",
 					container.ID, sourceHost.ID, destHost.ID)
 
 				// Break if source host is no longer overloaded
@@ -137,6 +144,8 @@ func (o *Orchestrator) TriggerReallocation() {
 }
 
 func (o *Orchestrator) calculateHostLoad(host *models.Host) float64 {
+	o.Logger.Println("Calculating host load")
+
 	totalCPU := float64(host.CPUCores)
 	totalMemory := float64(host.Memory)
 	usedCPU := 0.0
@@ -154,6 +163,7 @@ func (o *Orchestrator) calculateHostLoad(host *models.Host) float64 {
 	if cpuLoad > memoryLoad {
 		return cpuLoad
 	}
+
 	return memoryLoad
 }
 
