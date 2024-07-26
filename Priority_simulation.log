@@ -1,93 +1,1090 @@
-2024/07/25 21:26:51 Starting Priority simulation
-2024/07/25 21:26:51 Starting orchestrator run
-2024/07/25 21:26:51 Starting QoS monitoring
-2024/07/25 21:26:51 Starting metrics collection
-2024/07/25 21:26:53 Triggering reallocation due to QoS violation
-2024/07/25 21:26:53 Calculating host load
-2024/07/25 21:26:53 Calculating host load
-2024/07/25 21:26:53 Calculating host load
-2024/07/25 21:26:53 Calculating host load
-2024/07/25 21:26:53 Calculating host load
-2024/07/25 21:26:53 Calculating host load
-2024/07/25 21:26:53 Calculating host load
-2024/07/25 21:26:53 Migrated container container-3 from host host-1 to host host-3
-2024/07/25 21:26:53 Calculating host load
-2024/07/25 21:26:53 Calculating host load
-2024/07/25 21:26:53 Migrated container container-8 from host host-1 to host host-5
-2024/07/25 21:26:53 Calculating host load
-2024/07/25 21:26:53 Calculating host load
-2024/07/25 21:26:53 Migrated container container-7 from host host-1 to host host-4
-2024/07/25 21:31:51 Orchestrator run completed
-2024/07/25 21:32:21 Workload changed. Triggering reallocation...
-2024/07/25 21:32:21 Triggering reallocation due to QoS violation
-2024/07/25 21:32:21 Calculating host load
-2024/07/25 21:32:21 Calculating host load
-2024/07/25 21:32:21 Calculating host load
-2024/07/25 21:32:21 Calculating host load
-2024/07/25 21:32:21 Calculating host load
-2024/07/25 21:32:51 Workload changed. Triggering reallocation...
-2024/07/25 21:32:51 Triggering reallocation due to QoS violation
-2024/07/25 21:32:51 Calculating host load
-2024/07/25 21:32:51 Calculating host load
-2024/07/25 21:32:51 Calculating host load
-2024/07/25 21:32:51 Calculating host load
-2024/07/25 21:32:51 Calculating host load
-2024/07/25 21:33:22 Workload changed. Triggering reallocation...
-2024/07/25 21:33:22 Triggering reallocation due to QoS violation
-2024/07/25 21:33:22 Calculating host load
-2024/07/25 21:33:22 Calculating host load
-2024/07/25 21:33:22 Calculating host load
-2024/07/25 21:33:22 Calculating host load
-2024/07/25 21:33:22 Calculating host load
-2024/07/25 21:33:52 Workload changed. Triggering reallocation...
-2024/07/25 21:33:52 Triggering reallocation due to QoS violation
-2024/07/25 21:33:52 Calculating host load
-2024/07/25 21:33:52 Calculating host load
-2024/07/25 21:33:52 Calculating host load
-2024/07/25 21:33:52 Calculating host load
-2024/07/25 21:33:52 Calculating host load
-2024/07/25 21:34:22 Workload changed. Triggering reallocation...
-2024/07/25 21:34:22 Triggering reallocation due to QoS violation
-2024/07/25 21:34:22 Calculating host load
-2024/07/25 21:34:22 Calculating host load
-2024/07/25 21:34:22 Calculating host load
-2024/07/25 21:34:22 Calculating host load
-2024/07/25 21:34:22 Calculating host load
-2024/07/25 21:34:51 Workload changed. Triggering reallocation...
-2024/07/25 21:34:51 Triggering reallocation due to QoS violation
-2024/07/25 21:34:51 Calculating host load
-2024/07/25 21:34:51 Calculating host load
-2024/07/25 21:34:51 Calculating host load
-2024/07/25 21:34:51 Calculating host load
-2024/07/25 21:34:51 Calculating host load
-2024/07/25 21:35:21 Workload changed. Triggering reallocation...
-2024/07/25 21:35:21 Triggering reallocation due to QoS violation
-2024/07/25 21:35:21 Calculating host load
-2024/07/25 21:35:21 Calculating host load
-2024/07/25 21:35:21 Calculating host load
-2024/07/25 21:35:21 Calculating host load
-2024/07/25 21:35:21 Calculating host load
-2024/07/25 21:35:51 Workload changed. Triggering reallocation...
-2024/07/25 21:35:51 Triggering reallocation due to QoS violation
-2024/07/25 21:35:51 Calculating host load
-2024/07/25 21:35:51 Calculating host load
-2024/07/25 21:35:51 Calculating host load
-2024/07/25 21:35:51 Calculating host load
-2024/07/25 21:35:51 Calculating host load
-2024/07/25 21:36:22 Workload changed. Triggering reallocation...
-2024/07/25 21:36:22 Triggering reallocation due to QoS violation
-2024/07/25 21:36:22 Calculating host load
-2024/07/25 21:36:22 Calculating host load
-2024/07/25 21:36:22 Calculating host load
-2024/07/25 21:36:22 Calculating host load
-2024/07/25 21:36:22 Calculating host load
-2024/07/25 21:36:51 Final metrics: {CPUUsage:16.901875 MemoryUsage:20.26622772216797 GPUUsage:92.79023485475099 IOUsage:50}
-2024/07/25 21:36:51 QoS requirements met.
-2024/07/25 21:36:51 Priority simulation complete.
-2024/07/25 21:36:52 Workload changed. Triggering reallocation...
-2024/07/25 21:36:52 Triggering reallocation due to QoS violation
-2024/07/25 21:36:52 Calculating host load
-2024/07/25 21:36:52 Calculating host load
-2024/07/25 21:36:52 Calculating host load
-2024/07/25 21:36:52 Calculating host load
-2024/07/25 21:36:52 Calculating host load
+2024/07/26 13:24:27 Starting Priority simulation
+2024/07/26 13:24:27 Starting orchestrator run
+2024/07/26 13:24:27 Starting QoS monitoring
+2024/07/26 13:24:27 Starting metrics collection
+2024/07/26 13:24:37 Time: 13:24:37, CPU: 52.51%, Memory: 27.12%, GPU: 236.18%
+2024/07/26 13:24:38 GPU usage violated: 236.178786 > 95.000000
+2024/07/26 13:24:38 Time: 13:24:38, QoS Violations: 1
+2024/07/26 13:24:38 Triggering reallocation due to QoS violation
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-252 from host host-2 to host host-3
+2024/07/26 13:24:38 Migrated container container-252 from host host-2 to host host-3
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-498 from host host-2 to host host-7
+2024/07/26 13:24:38 Migrated container container-498 from host host-2 to host host-7
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-462 from host host-2 to host host-13
+2024/07/26 13:24:38 Migrated container container-462 from host host-2 to host host-13
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-452 from host host-2 to host host-21
+2024/07/26 13:24:38 Migrated container container-452 from host host-2 to host host-21
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-431 from host host-2 to host host-12
+2024/07/26 13:24:38 Migrated container container-431 from host host-2 to host host-12
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-412 from host host-2 to host host-47
+2024/07/26 13:24:38 Migrated container container-412 from host host-2 to host host-47
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-41 from host host-2 to host host-8
+2024/07/26 13:24:38 Migrated container container-41 from host host-2 to host host-8
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-51 from host host-2 to host host-11
+2024/07/26 13:24:38 Migrated container container-51 from host host-2 to host host-11
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-250 from host host-2 to host host-29
+2024/07/26 13:24:38 Migrated container container-250 from host host-2 to host host-29
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-378 from host host-2 to host host-24
+2024/07/26 13:24:38 Migrated container container-378 from host host-2 to host host-24
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-369 from host host-2 to host host-5
+2024/07/26 13:24:38 Migrated container container-369 from host host-2 to host host-5
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-364 from host host-2 to host host-19
+2024/07/26 13:24:38 Migrated container container-364 from host host-2 to host host-19
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-350 from host host-2 to host host-23
+2024/07/26 13:24:38 Migrated container container-350 from host host-2 to host host-23
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-85 from host host-2 to host host-15
+2024/07/26 13:24:38 Migrated container container-85 from host host-2 to host host-15
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-94 from host host-2 to host host-9
+2024/07/26 13:24:38 Migrated container container-94 from host host-2 to host host-9
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-281 from host host-2 to host host-26
+2024/07/26 13:24:38 Migrated container container-281 from host host-2 to host host-26
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-255 from host host-2 to host host-52
+2024/07/26 13:24:38 Migrated container container-255 from host host-2 to host host-52
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-109 from host host-2 to host host-34
+2024/07/26 13:24:38 Migrated container container-109 from host host-2 to host host-34
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-2 from host host-2 to host host-28
+2024/07/26 13:24:38 Migrated container container-2 from host host-2 to host host-28
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-120 from host host-2 to host host-18
+2024/07/26 13:24:38 Migrated container container-120 from host host-2 to host host-18
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-124 from host host-2 to host host-32
+2024/07/26 13:24:38 Migrated container container-124 from host host-2 to host host-32
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-223 from host host-2 to host host-40
+2024/07/26 13:24:38 Migrated container container-223 from host host-2 to host host-40
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-187 from host host-2 to host host-37
+2024/07/26 13:24:38 Migrated container container-187 from host host-2 to host host-37
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-180 from host host-2 to host host-35
+2024/07/26 13:24:38 Migrated container container-180 from host host-2 to host host-35
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-170 from host host-2 to host host-50
+2024/07/26 13:24:38 Migrated container container-170 from host host-2 to host host-50
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-166 from host host-2 to host host-64
+2024/07/26 13:24:38 Migrated container container-166 from host host-2 to host host-64
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-156 from host host-2 to host host-36
+2024/07/26 13:24:38 Migrated container container-156 from host host-2 to host host-36
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-148 from host host-2 to host host-86
+2024/07/26 13:24:38 Migrated container container-148 from host host-2 to host host-86
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-147 from host host-2 to host host-43
+2024/07/26 13:24:38 Migrated container container-147 from host host-2 to host host-43
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-491 from host host-2 to host host-87
+2024/07/26 13:24:38 Migrated container container-491 from host host-2 to host host-87
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-173 from host host-2 to host host-98
+2024/07/26 13:24:38 Migrated container container-173 from host host-2 to host host-98
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-483 from host host-2 to host host-70
+2024/07/26 13:24:38 Migrated container container-483 from host host-2 to host host-70
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-472 from host host-2 to host host-73
+2024/07/26 13:24:38 Migrated container container-472 from host host-2 to host host-73
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-190 from host host-2 to host host-96
+2024/07/26 13:24:38 Migrated container container-190 from host host-2 to host host-96
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-460 from host host-2 to host host-68
+2024/07/26 13:24:38 Migrated container container-460 from host host-2 to host host-68
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-202 from host host-2 to host host-42
+2024/07/26 13:24:38 Migrated container container-202 from host host-2 to host host-42
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-21 from host host-2 to host host-67
+2024/07/26 13:24:38 Migrated container container-21 from host host-2 to host host-67
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-211 from host host-2 to host host-65
+2024/07/26 13:24:38 Migrated container container-211 from host host-2 to host host-65
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-26 from host host-2 to host host-83
+2024/07/26 13:24:38 Migrated container container-26 from host host-2 to host host-83
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-432 from host host-2 to host host-75
+2024/07/26 13:24:38 Migrated container container-432 from host host-2 to host host-75
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-227 from host host-2 to host host-92
+2024/07/26 13:24:38 Migrated container container-227 from host host-2 to host host-92
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-420 from host host-2 to host host-85
+2024/07/26 13:24:38 Migrated container container-420 from host host-2 to host host-85
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-153 from host host-2 to host host-48
+2024/07/26 13:24:38 Migrated container container-153 from host host-2 to host host-48
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-404 from host host-2 to host host-56
+2024/07/26 13:24:38 Migrated container container-404 from host host-2 to host host-56
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-116 from host host-2 to host host-74
+2024/07/26 13:24:38 Migrated container container-116 from host host-2 to host host-74
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-115 from host host-2 to host host-100
+2024/07/26 13:24:38 Migrated container container-115 from host host-2 to host host-100
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-52 from host host-2 to host host-61
+2024/07/26 13:24:38 Migrated container container-52 from host host-2 to host host-61
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-104 from host host-2 to host host-97
+2024/07/26 13:24:38 Migrated container container-104 from host host-2 to host host-97
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-276 from host host-2 to host host-6
+2024/07/26 13:24:38 Migrated container container-276 from host host-2 to host host-6
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-280 from host host-2 to host host-38
+2024/07/26 13:24:38 Migrated container container-280 from host host-2 to host host-38
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-67 from host host-2 to host host-82
+2024/07/26 13:24:38 Migrated container container-67 from host host-2 to host host-82
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-75 from host host-2 to host host-45
+2024/07/26 13:24:38 Migrated container container-75 from host host-2 to host host-45
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-341 from host host-2 to host host-72
+2024/07/26 13:24:38 Migrated container container-341 from host host-2 to host host-72
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-319 from host host-2 to host host-31
+2024/07/26 13:24:38 Migrated container container-319 from host host-2 to host host-31
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-83 from host host-2 to host host-22
+2024/07/26 13:24:38 Migrated container container-83 from host host-2 to host host-22
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-311 from host host-2 to host host-60
+2024/07/26 13:24:38 Migrated container container-311 from host host-2 to host host-60
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-304 from host host-2 to host host-94
+2024/07/26 13:24:38 Migrated container container-304 from host host-2 to host host-94
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-295 from host host-2 to host host-62
+2024/07/26 13:24:38 Migrated container container-295 from host host-2 to host host-62
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-57 from host host-2 to host host-88
+2024/07/26 13:24:38 Migrated container container-57 from host host-2 to host host-88
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-106 from host host-2 to host host-81
+2024/07/26 13:24:38 Migrated container container-106 from host host-2 to host host-81
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-247 from host host-2 to host host-57
+2024/07/26 13:24:38 Migrated container container-247 from host host-2 to host host-57
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-407 from host host-2 to host host-69
+2024/07/26 13:24:38 Migrated container container-407 from host host-2 to host host-69
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-237 from host host-2 to host host-89
+2024/07/26 13:24:38 Migrated container container-237 from host host-2 to host host-89
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-222 from host host-2 to host host-20
+2024/07/26 13:24:38 Migrated container container-222 from host host-2 to host host-20
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-213 from host host-2 to host host-80
+2024/07/26 13:24:38 Migrated container container-213 from host host-2 to host host-80
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-206 from host host-2 to host host-33
+2024/07/26 13:24:38 Migrated container container-206 from host host-2 to host host-33
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-194 from host host-2 to host host-46
+2024/07/26 13:24:38 Migrated container container-194 from host host-2 to host host-46
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-475 from host host-2 to host host-93
+2024/07/26 13:24:38 Migrated container container-475 from host host-2 to host host-93
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-494 from host host-4 to host host-76
+2024/07/26 13:24:38 Migrated container container-494 from host host-4 to host host-76
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-485 from host host-4 to host host-99
+2024/07/26 13:24:38 Migrated container container-485 from host host-4 to host host-99
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-22 from host host-4 to host host-77
+2024/07/26 13:24:38 Migrated container container-22 from host host-4 to host host-77
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-444 from host host-4 to host host-90
+2024/07/26 13:24:38 Migrated container container-444 from host host-4 to host host-90
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-360 from host host-4 to host host-84
+2024/07/26 13:24:38 Migrated container container-360 from host host-4 to host host-84
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-484 from host host-4 to host host-51
+2024/07/26 13:24:38 Migrated container container-484 from host host-4 to host host-51
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-464 from host host-1 to host host-59
+2024/07/26 13:24:38 Migrated container container-464 from host host-1 to host host-59
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-427 from host host-1 to host host-53
+2024/07/26 13:24:38 Migrated container container-427 from host host-1 to host host-53
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-44 from host host-1 to host host-44
+2024/07/26 13:24:38 Migrated container container-44 from host host-1 to host host-44
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-55 from host host-1 to host host-55
+2024/07/26 13:24:38 Migrated container container-55 from host host-1 to host host-55
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-366 from host host-1 to host host-71
+2024/07/26 13:24:38 Migrated container container-366 from host host-1 to host host-71
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-82 from host host-1 to host host-25
+2024/07/26 13:24:38 Migrated container container-82 from host host-1 to host host-25
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-292 from host host-1 to host host-79
+2024/07/26 13:24:38 Migrated container container-292 from host host-1 to host host-79
+2024/07/26 13:24:38 Time: 13:24:38, Migrated container container-121 from host host-1 to host host-91
+2024/07/26 13:24:38 Migrated container container-121 from host host-1 to host host-91
+2024/07/26 13:24:39 GPU usage violated: 236.178786 > 95.000000
+2024/07/26 13:24:39 Time: 13:24:39, QoS Violations: 1
+2024/07/26 13:24:39 Triggering reallocation due to QoS violation
+2024/07/26 13:24:40 GPU usage violated: 236.178786 > 95.000000
+2024/07/26 13:24:40 Time: 13:24:40, QoS Violations: 1
+2024/07/26 13:24:40 Triggering reallocation due to QoS violation
+2024/07/26 13:24:41 GPU usage violated: 236.178786 > 95.000000
+2024/07/26 13:24:41 Time: 13:24:41, QoS Violations: 1
+2024/07/26 13:24:41 Triggering reallocation due to QoS violation
+2024/07/26 13:24:42 GPU usage violated: 236.178786 > 95.000000
+2024/07/26 13:24:42 Time: 13:24:42, QoS Violations: 1
+2024/07/26 13:24:42 Triggering reallocation due to QoS violation
+2024/07/26 13:24:43 GPU usage violated: 236.178786 > 95.000000
+2024/07/26 13:24:43 Time: 13:24:43, QoS Violations: 1
+2024/07/26 13:24:43 Triggering reallocation due to QoS violation
+2024/07/26 13:24:44 GPU usage violated: 236.178786 > 95.000000
+2024/07/26 13:24:44 Time: 13:24:44, QoS Violations: 1
+2024/07/26 13:24:44 Triggering reallocation due to QoS violation
+2024/07/26 13:24:45 GPU usage violated: 236.178786 > 95.000000
+2024/07/26 13:24:45 Time: 13:24:45, QoS Violations: 1
+2024/07/26 13:24:45 Triggering reallocation due to QoS violation
+2024/07/26 13:24:46 GPU usage violated: 236.178786 > 95.000000
+2024/07/26 13:24:46 Time: 13:24:46, QoS Violations: 1
+2024/07/26 13:24:46 Triggering reallocation due to QoS violation
+2024/07/26 13:24:47 GPU usage violated: 236.178786 > 95.000000
+2024/07/26 13:24:47 Time: 13:24:47, QoS Violations: 1
+2024/07/26 13:24:47 Triggering reallocation due to QoS violation
+2024/07/26 13:24:47 Time: 13:24:47, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:24:48 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:24:48 Time: 13:24:48, QoS Violations: 1
+2024/07/26 13:24:48 Triggering reallocation due to QoS violation
+2024/07/26 13:24:49 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:24:49 Time: 13:24:49, QoS Violations: 1
+2024/07/26 13:24:49 Triggering reallocation due to QoS violation
+2024/07/26 13:24:50 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:24:50 Time: 13:24:50, QoS Violations: 1
+2024/07/26 13:24:50 Triggering reallocation due to QoS violation
+2024/07/26 13:24:51 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:24:51 Time: 13:24:51, QoS Violations: 1
+2024/07/26 13:24:51 Triggering reallocation due to QoS violation
+2024/07/26 13:24:52 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:24:52 Time: 13:24:52, QoS Violations: 1
+2024/07/26 13:24:52 Triggering reallocation due to QoS violation
+2024/07/26 13:24:53 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:24:53 Time: 13:24:53, QoS Violations: 1
+2024/07/26 13:24:53 Triggering reallocation due to QoS violation
+2024/07/26 13:24:54 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:24:54 Time: 13:24:54, QoS Violations: 1
+2024/07/26 13:24:54 Triggering reallocation due to QoS violation
+2024/07/26 13:24:55 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:24:55 Time: 13:24:55, QoS Violations: 1
+2024/07/26 13:24:55 Triggering reallocation due to QoS violation
+2024/07/26 13:24:56 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:24:56 Time: 13:24:56, QoS Violations: 1
+2024/07/26 13:24:56 Triggering reallocation due to QoS violation
+2024/07/26 13:24:57 Time: 13:24:57, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:24:57 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:24:57 Time: 13:24:57, QoS Violations: 1
+2024/07/26 13:24:57 Triggering reallocation due to QoS violation
+2024/07/26 13:24:58 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:24:58 Time: 13:24:58, QoS Violations: 1
+2024/07/26 13:24:58 Triggering reallocation due to QoS violation
+2024/07/26 13:24:59 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:24:59 Time: 13:24:59, QoS Violations: 1
+2024/07/26 13:24:59 Triggering reallocation due to QoS violation
+2024/07/26 13:25:00 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:00 Time: 13:25:00, QoS Violations: 1
+2024/07/26 13:25:00 Triggering reallocation due to QoS violation
+2024/07/26 13:25:01 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:01 Time: 13:25:01, QoS Violations: 1
+2024/07/26 13:25:01 Triggering reallocation due to QoS violation
+2024/07/26 13:25:02 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:02 Time: 13:25:02, QoS Violations: 1
+2024/07/26 13:25:02 Triggering reallocation due to QoS violation
+2024/07/26 13:25:03 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:03 Time: 13:25:03, QoS Violations: 1
+2024/07/26 13:25:03 Triggering reallocation due to QoS violation
+2024/07/26 13:25:04 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:04 Time: 13:25:04, QoS Violations: 1
+2024/07/26 13:25:04 Triggering reallocation due to QoS violation
+2024/07/26 13:25:05 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:05 Time: 13:25:05, QoS Violations: 1
+2024/07/26 13:25:05 Triggering reallocation due to QoS violation
+2024/07/26 13:25:06 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:06 Time: 13:25:06, QoS Violations: 1
+2024/07/26 13:25:06 Triggering reallocation due to QoS violation
+2024/07/26 13:25:07 Time: 13:25:07, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:25:07 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:07 Time: 13:25:07, QoS Violations: 1
+2024/07/26 13:25:07 Triggering reallocation due to QoS violation
+2024/07/26 13:25:08 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:08 Time: 13:25:08, QoS Violations: 1
+2024/07/26 13:25:08 Triggering reallocation due to QoS violation
+2024/07/26 13:25:09 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:09 Time: 13:25:09, QoS Violations: 1
+2024/07/26 13:25:09 Triggering reallocation due to QoS violation
+2024/07/26 13:25:10 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:10 Time: 13:25:10, QoS Violations: 1
+2024/07/26 13:25:10 Triggering reallocation due to QoS violation
+2024/07/26 13:25:11 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:11 Time: 13:25:11, QoS Violations: 1
+2024/07/26 13:25:11 Triggering reallocation due to QoS violation
+2024/07/26 13:25:12 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:12 Time: 13:25:12, QoS Violations: 1
+2024/07/26 13:25:12 Triggering reallocation due to QoS violation
+2024/07/26 13:25:13 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:13 Time: 13:25:13, QoS Violations: 1
+2024/07/26 13:25:13 Triggering reallocation due to QoS violation
+2024/07/26 13:25:14 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:14 Time: 13:25:14, QoS Violations: 1
+2024/07/26 13:25:14 Triggering reallocation due to QoS violation
+2024/07/26 13:25:15 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:15 Time: 13:25:15, QoS Violations: 1
+2024/07/26 13:25:15 Triggering reallocation due to QoS violation
+2024/07/26 13:25:16 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:16 Time: 13:25:16, QoS Violations: 1
+2024/07/26 13:25:16 Triggering reallocation due to QoS violation
+2024/07/26 13:25:17 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:17 Time: 13:25:17, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:25:17 Time: 13:25:17, QoS Violations: 1
+2024/07/26 13:25:17 Triggering reallocation due to QoS violation
+2024/07/26 13:25:18 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:18 Time: 13:25:18, QoS Violations: 1
+2024/07/26 13:25:18 Triggering reallocation due to QoS violation
+2024/07/26 13:25:19 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:19 Time: 13:25:19, QoS Violations: 1
+2024/07/26 13:25:19 Triggering reallocation due to QoS violation
+2024/07/26 13:25:20 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:20 Time: 13:25:20, QoS Violations: 1
+2024/07/26 13:25:20 Triggering reallocation due to QoS violation
+2024/07/26 13:25:21 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:21 Time: 13:25:21, QoS Violations: 1
+2024/07/26 13:25:21 Triggering reallocation due to QoS violation
+2024/07/26 13:25:22 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:22 Time: 13:25:22, QoS Violations: 1
+2024/07/26 13:25:22 Triggering reallocation due to QoS violation
+2024/07/26 13:25:23 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:23 Time: 13:25:23, QoS Violations: 1
+2024/07/26 13:25:23 Triggering reallocation due to QoS violation
+2024/07/26 13:25:24 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:24 Time: 13:25:24, QoS Violations: 1
+2024/07/26 13:25:24 Triggering reallocation due to QoS violation
+2024/07/26 13:25:25 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:25 Time: 13:25:25, QoS Violations: 1
+2024/07/26 13:25:25 Triggering reallocation due to QoS violation
+2024/07/26 13:25:26 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:26 Time: 13:25:26, QoS Violations: 1
+2024/07/26 13:25:26 Triggering reallocation due to QoS violation
+2024/07/26 13:25:27 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:27 Time: 13:25:27, QoS Violations: 1
+2024/07/26 13:25:27 Triggering reallocation due to QoS violation
+2024/07/26 13:25:27 Time: 13:25:27, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:25:28 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:28 Time: 13:25:28, QoS Violations: 1
+2024/07/26 13:25:28 Triggering reallocation due to QoS violation
+2024/07/26 13:25:29 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:29 Time: 13:25:29, QoS Violations: 1
+2024/07/26 13:25:29 Triggering reallocation due to QoS violation
+2024/07/26 13:25:30 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:30 Time: 13:25:30, QoS Violations: 1
+2024/07/26 13:25:30 Triggering reallocation due to QoS violation
+2024/07/26 13:25:31 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:31 Time: 13:25:31, QoS Violations: 1
+2024/07/26 13:25:31 Triggering reallocation due to QoS violation
+2024/07/26 13:25:32 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:32 Time: 13:25:32, QoS Violations: 1
+2024/07/26 13:25:32 Triggering reallocation due to QoS violation
+2024/07/26 13:25:33 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:33 Time: 13:25:33, QoS Violations: 1
+2024/07/26 13:25:33 Triggering reallocation due to QoS violation
+2024/07/26 13:25:34 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:34 Time: 13:25:34, QoS Violations: 1
+2024/07/26 13:25:34 Triggering reallocation due to QoS violation
+2024/07/26 13:25:35 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:35 Time: 13:25:35, QoS Violations: 1
+2024/07/26 13:25:35 Triggering reallocation due to QoS violation
+2024/07/26 13:25:36 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:36 Time: 13:25:36, QoS Violations: 1
+2024/07/26 13:25:36 Triggering reallocation due to QoS violation
+2024/07/26 13:25:37 Time: 13:25:37, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:25:37 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:37 Time: 13:25:37, QoS Violations: 1
+2024/07/26 13:25:37 Triggering reallocation due to QoS violation
+2024/07/26 13:25:38 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:38 Time: 13:25:38, QoS Violations: 1
+2024/07/26 13:25:38 Triggering reallocation due to QoS violation
+2024/07/26 13:25:39 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:39 Time: 13:25:39, QoS Violations: 1
+2024/07/26 13:25:39 Triggering reallocation due to QoS violation
+2024/07/26 13:25:40 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:40 Time: 13:25:40, QoS Violations: 1
+2024/07/26 13:25:40 Triggering reallocation due to QoS violation
+2024/07/26 13:25:41 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:41 Time: 13:25:41, QoS Violations: 1
+2024/07/26 13:25:41 Triggering reallocation due to QoS violation
+2024/07/26 13:25:42 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:42 Time: 13:25:42, QoS Violations: 1
+2024/07/26 13:25:42 Triggering reallocation due to QoS violation
+2024/07/26 13:25:43 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:43 Time: 13:25:43, QoS Violations: 1
+2024/07/26 13:25:43 Triggering reallocation due to QoS violation
+2024/07/26 13:25:44 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:44 Time: 13:25:44, QoS Violations: 1
+2024/07/26 13:25:44 Triggering reallocation due to QoS violation
+2024/07/26 13:25:45 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:45 Time: 13:25:45, QoS Violations: 1
+2024/07/26 13:25:45 Triggering reallocation due to QoS violation
+2024/07/26 13:25:46 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:46 Time: 13:25:46, QoS Violations: 1
+2024/07/26 13:25:46 Triggering reallocation due to QoS violation
+2024/07/26 13:25:47 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:47 Time: 13:25:47, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:25:47 Time: 13:25:47, QoS Violations: 1
+2024/07/26 13:25:47 Triggering reallocation due to QoS violation
+2024/07/26 13:25:48 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:48 Time: 13:25:48, QoS Violations: 1
+2024/07/26 13:25:48 Triggering reallocation due to QoS violation
+2024/07/26 13:25:49 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:49 Time: 13:25:49, QoS Violations: 1
+2024/07/26 13:25:49 Triggering reallocation due to QoS violation
+2024/07/26 13:25:50 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:50 Time: 13:25:50, QoS Violations: 1
+2024/07/26 13:25:50 Triggering reallocation due to QoS violation
+2024/07/26 13:25:51 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:51 Time: 13:25:51, QoS Violations: 1
+2024/07/26 13:25:51 Triggering reallocation due to QoS violation
+2024/07/26 13:25:52 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:52 Time: 13:25:52, QoS Violations: 1
+2024/07/26 13:25:52 Triggering reallocation due to QoS violation
+2024/07/26 13:25:53 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:53 Time: 13:25:53, QoS Violations: 1
+2024/07/26 13:25:53 Triggering reallocation due to QoS violation
+2024/07/26 13:25:54 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:54 Time: 13:25:54, QoS Violations: 1
+2024/07/26 13:25:54 Triggering reallocation due to QoS violation
+2024/07/26 13:25:55 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:55 Time: 13:25:55, QoS Violations: 1
+2024/07/26 13:25:55 Triggering reallocation due to QoS violation
+2024/07/26 13:25:56 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:56 Time: 13:25:56, QoS Violations: 1
+2024/07/26 13:25:56 Triggering reallocation due to QoS violation
+2024/07/26 13:25:57 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:57 Time: 13:25:57, QoS Violations: 1
+2024/07/26 13:25:57 Triggering reallocation due to QoS violation
+2024/07/26 13:25:57 Time: 13:25:57, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:25:58 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:58 Time: 13:25:58, QoS Violations: 1
+2024/07/26 13:25:58 Triggering reallocation due to QoS violation
+2024/07/26 13:25:59 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:25:59 Time: 13:25:59, QoS Violations: 1
+2024/07/26 13:25:59 Triggering reallocation due to QoS violation
+2024/07/26 13:26:00 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:00 Time: 13:26:00, QoS Violations: 1
+2024/07/26 13:26:00 Triggering reallocation due to QoS violation
+2024/07/26 13:26:01 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:01 Time: 13:26:01, QoS Violations: 1
+2024/07/26 13:26:01 Triggering reallocation due to QoS violation
+2024/07/26 13:26:02 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:02 Time: 13:26:02, QoS Violations: 1
+2024/07/26 13:26:02 Triggering reallocation due to QoS violation
+2024/07/26 13:26:03 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:03 Time: 13:26:03, QoS Violations: 1
+2024/07/26 13:26:03 Triggering reallocation due to QoS violation
+2024/07/26 13:26:04 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:04 Time: 13:26:04, QoS Violations: 1
+2024/07/26 13:26:04 Triggering reallocation due to QoS violation
+2024/07/26 13:26:05 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:05 Time: 13:26:05, QoS Violations: 1
+2024/07/26 13:26:05 Triggering reallocation due to QoS violation
+2024/07/26 13:26:06 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:06 Time: 13:26:06, QoS Violations: 1
+2024/07/26 13:26:06 Triggering reallocation due to QoS violation
+2024/07/26 13:26:07 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:07 Time: 13:26:07, QoS Violations: 1
+2024/07/26 13:26:07 Time: 13:26:07, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:26:07 Triggering reallocation due to QoS violation
+2024/07/26 13:26:08 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:08 Time: 13:26:08, QoS Violations: 1
+2024/07/26 13:26:08 Triggering reallocation due to QoS violation
+2024/07/26 13:26:09 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:09 Time: 13:26:09, QoS Violations: 1
+2024/07/26 13:26:09 Triggering reallocation due to QoS violation
+2024/07/26 13:26:10 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:10 Time: 13:26:10, QoS Violations: 1
+2024/07/26 13:26:10 Triggering reallocation due to QoS violation
+2024/07/26 13:26:11 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:11 Time: 13:26:11, QoS Violations: 1
+2024/07/26 13:26:11 Triggering reallocation due to QoS violation
+2024/07/26 13:26:12 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:12 Time: 13:26:12, QoS Violations: 1
+2024/07/26 13:26:12 Triggering reallocation due to QoS violation
+2024/07/26 13:26:13 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:13 Time: 13:26:13, QoS Violations: 1
+2024/07/26 13:26:13 Triggering reallocation due to QoS violation
+2024/07/26 13:26:14 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:14 Time: 13:26:14, QoS Violations: 1
+2024/07/26 13:26:14 Triggering reallocation due to QoS violation
+2024/07/26 13:26:15 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:15 Time: 13:26:15, QoS Violations: 1
+2024/07/26 13:26:15 Triggering reallocation due to QoS violation
+2024/07/26 13:26:16 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:16 Time: 13:26:16, QoS Violations: 1
+2024/07/26 13:26:16 Triggering reallocation due to QoS violation
+2024/07/26 13:26:17 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:17 Time: 13:26:17, QoS Violations: 1
+2024/07/26 13:26:17 Triggering reallocation due to QoS violation
+2024/07/26 13:26:17 Time: 13:26:17, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:26:18 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:18 Time: 13:26:18, QoS Violations: 1
+2024/07/26 13:26:18 Triggering reallocation due to QoS violation
+2024/07/26 13:26:19 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:19 Time: 13:26:19, QoS Violations: 1
+2024/07/26 13:26:19 Triggering reallocation due to QoS violation
+2024/07/26 13:26:20 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:20 Time: 13:26:20, QoS Violations: 1
+2024/07/26 13:26:20 Triggering reallocation due to QoS violation
+2024/07/26 13:26:21 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:21 Time: 13:26:21, QoS Violations: 1
+2024/07/26 13:26:21 Triggering reallocation due to QoS violation
+2024/07/26 13:26:22 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:22 Time: 13:26:22, QoS Violations: 1
+2024/07/26 13:26:22 Triggering reallocation due to QoS violation
+2024/07/26 13:26:23 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:23 Time: 13:26:23, QoS Violations: 1
+2024/07/26 13:26:23 Triggering reallocation due to QoS violation
+2024/07/26 13:26:24 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:24 Time: 13:26:24, QoS Violations: 1
+2024/07/26 13:26:24 Triggering reallocation due to QoS violation
+2024/07/26 13:26:25 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:25 Time: 13:26:25, QoS Violations: 1
+2024/07/26 13:26:25 Triggering reallocation due to QoS violation
+2024/07/26 13:26:26 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:26 Time: 13:26:26, QoS Violations: 1
+2024/07/26 13:26:26 Triggering reallocation due to QoS violation
+2024/07/26 13:26:27 Time: 13:26:27, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:26:27 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:27 Time: 13:26:27, QoS Violations: 1
+2024/07/26 13:26:27 Triggering reallocation due to QoS violation
+2024/07/26 13:26:28 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:28 Time: 13:26:28, QoS Violations: 1
+2024/07/26 13:26:28 Triggering reallocation due to QoS violation
+2024/07/26 13:26:29 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:29 Time: 13:26:29, QoS Violations: 1
+2024/07/26 13:26:29 Triggering reallocation due to QoS violation
+2024/07/26 13:26:30 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:30 Time: 13:26:30, QoS Violations: 1
+2024/07/26 13:26:30 Triggering reallocation due to QoS violation
+2024/07/26 13:26:31 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:31 Time: 13:26:31, QoS Violations: 1
+2024/07/26 13:26:31 Triggering reallocation due to QoS violation
+2024/07/26 13:26:32 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:32 Time: 13:26:32, QoS Violations: 1
+2024/07/26 13:26:32 Triggering reallocation due to QoS violation
+2024/07/26 13:26:33 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:33 Time: 13:26:33, QoS Violations: 1
+2024/07/26 13:26:33 Triggering reallocation due to QoS violation
+2024/07/26 13:26:34 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:34 Time: 13:26:34, QoS Violations: 1
+2024/07/26 13:26:34 Triggering reallocation due to QoS violation
+2024/07/26 13:26:35 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:35 Time: 13:26:35, QoS Violations: 1
+2024/07/26 13:26:35 Triggering reallocation due to QoS violation
+2024/07/26 13:26:36 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:36 Time: 13:26:36, QoS Violations: 1
+2024/07/26 13:26:36 Triggering reallocation due to QoS violation
+2024/07/26 13:26:37 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:37 Time: 13:26:37, QoS Violations: 1
+2024/07/26 13:26:37 Time: 13:26:37, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:26:37 Triggering reallocation due to QoS violation
+2024/07/26 13:26:38 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:38 Time: 13:26:38, QoS Violations: 1
+2024/07/26 13:26:38 Triggering reallocation due to QoS violation
+2024/07/26 13:26:39 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:39 Time: 13:26:39, QoS Violations: 1
+2024/07/26 13:26:39 Triggering reallocation due to QoS violation
+2024/07/26 13:26:40 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:40 Time: 13:26:40, QoS Violations: 1
+2024/07/26 13:26:40 Triggering reallocation due to QoS violation
+2024/07/26 13:26:41 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:41 Time: 13:26:41, QoS Violations: 1
+2024/07/26 13:26:41 Triggering reallocation due to QoS violation
+2024/07/26 13:26:42 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:42 Time: 13:26:42, QoS Violations: 1
+2024/07/26 13:26:42 Triggering reallocation due to QoS violation
+2024/07/26 13:26:43 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:43 Time: 13:26:43, QoS Violations: 1
+2024/07/26 13:26:43 Triggering reallocation due to QoS violation
+2024/07/26 13:26:44 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:44 Time: 13:26:44, QoS Violations: 1
+2024/07/26 13:26:44 Triggering reallocation due to QoS violation
+2024/07/26 13:26:45 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:45 Time: 13:26:45, QoS Violations: 1
+2024/07/26 13:26:45 Triggering reallocation due to QoS violation
+2024/07/26 13:26:46 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:46 Time: 13:26:46, QoS Violations: 1
+2024/07/26 13:26:46 Triggering reallocation due to QoS violation
+2024/07/26 13:26:47 Time: 13:26:47, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:26:47 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:47 Time: 13:26:47, QoS Violations: 1
+2024/07/26 13:26:47 Triggering reallocation due to QoS violation
+2024/07/26 13:26:48 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:48 Time: 13:26:48, QoS Violations: 1
+2024/07/26 13:26:48 Triggering reallocation due to QoS violation
+2024/07/26 13:26:49 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:49 Time: 13:26:49, QoS Violations: 1
+2024/07/26 13:26:49 Triggering reallocation due to QoS violation
+2024/07/26 13:26:50 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:50 Time: 13:26:50, QoS Violations: 1
+2024/07/26 13:26:50 Triggering reallocation due to QoS violation
+2024/07/26 13:26:51 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:51 Time: 13:26:51, QoS Violations: 1
+2024/07/26 13:26:51 Triggering reallocation due to QoS violation
+2024/07/26 13:26:52 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:52 Time: 13:26:52, QoS Violations: 1
+2024/07/26 13:26:52 Triggering reallocation due to QoS violation
+2024/07/26 13:26:53 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:53 Time: 13:26:53, QoS Violations: 1
+2024/07/26 13:26:53 Triggering reallocation due to QoS violation
+2024/07/26 13:26:54 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:54 Time: 13:26:54, QoS Violations: 1
+2024/07/26 13:26:54 Triggering reallocation due to QoS violation
+2024/07/26 13:26:55 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:55 Time: 13:26:55, QoS Violations: 1
+2024/07/26 13:26:55 Triggering reallocation due to QoS violation
+2024/07/26 13:26:56 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:56 Time: 13:26:56, QoS Violations: 1
+2024/07/26 13:26:56 Triggering reallocation due to QoS violation
+2024/07/26 13:26:57 Time: 13:26:57, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:26:57 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:57 Time: 13:26:57, QoS Violations: 1
+2024/07/26 13:26:57 Triggering reallocation due to QoS violation
+2024/07/26 13:26:58 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:58 Time: 13:26:58, QoS Violations: 1
+2024/07/26 13:26:58 Triggering reallocation due to QoS violation
+2024/07/26 13:26:59 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:26:59 Time: 13:26:59, QoS Violations: 1
+2024/07/26 13:26:59 Triggering reallocation due to QoS violation
+2024/07/26 13:27:00 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:00 Time: 13:27:00, QoS Violations: 1
+2024/07/26 13:27:00 Triggering reallocation due to QoS violation
+2024/07/26 13:27:01 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:01 Time: 13:27:01, QoS Violations: 1
+2024/07/26 13:27:01 Triggering reallocation due to QoS violation
+2024/07/26 13:27:02 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:02 Time: 13:27:02, QoS Violations: 1
+2024/07/26 13:27:02 Triggering reallocation due to QoS violation
+2024/07/26 13:27:03 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:03 Time: 13:27:03, QoS Violations: 1
+2024/07/26 13:27:03 Triggering reallocation due to QoS violation
+2024/07/26 13:27:04 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:04 Time: 13:27:04, QoS Violations: 1
+2024/07/26 13:27:04 Triggering reallocation due to QoS violation
+2024/07/26 13:27:05 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:05 Time: 13:27:05, QoS Violations: 1
+2024/07/26 13:27:05 Triggering reallocation due to QoS violation
+2024/07/26 13:27:06 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:06 Time: 13:27:06, QoS Violations: 1
+2024/07/26 13:27:06 Triggering reallocation due to QoS violation
+2024/07/26 13:27:07 Time: 13:27:07, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:27:07 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:07 Time: 13:27:07, QoS Violations: 1
+2024/07/26 13:27:07 Triggering reallocation due to QoS violation
+2024/07/26 13:27:08 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:08 Time: 13:27:08, QoS Violations: 1
+2024/07/26 13:27:08 Triggering reallocation due to QoS violation
+2024/07/26 13:27:09 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:09 Time: 13:27:09, QoS Violations: 1
+2024/07/26 13:27:09 Triggering reallocation due to QoS violation
+2024/07/26 13:27:10 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:10 Time: 13:27:10, QoS Violations: 1
+2024/07/26 13:27:10 Triggering reallocation due to QoS violation
+2024/07/26 13:27:11 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:11 Time: 13:27:11, QoS Violations: 1
+2024/07/26 13:27:11 Triggering reallocation due to QoS violation
+2024/07/26 13:27:12 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:12 Time: 13:27:12, QoS Violations: 1
+2024/07/26 13:27:12 Triggering reallocation due to QoS violation
+2024/07/26 13:27:13 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:13 Time: 13:27:13, QoS Violations: 1
+2024/07/26 13:27:13 Triggering reallocation due to QoS violation
+2024/07/26 13:27:14 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:14 Time: 13:27:14, QoS Violations: 1
+2024/07/26 13:27:14 Triggering reallocation due to QoS violation
+2024/07/26 13:27:15 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:15 Time: 13:27:15, QoS Violations: 1
+2024/07/26 13:27:15 Triggering reallocation due to QoS violation
+2024/07/26 13:27:16 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:16 Time: 13:27:16, QoS Violations: 1
+2024/07/26 13:27:16 Triggering reallocation due to QoS violation
+2024/07/26 13:27:17 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:17 Time: 13:27:17, QoS Violations: 1
+2024/07/26 13:27:17 Time: 13:27:17, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:27:17 Triggering reallocation due to QoS violation
+2024/07/26 13:27:18 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:18 Time: 13:27:18, QoS Violations: 1
+2024/07/26 13:27:18 Triggering reallocation due to QoS violation
+2024/07/26 13:27:19 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:19 Time: 13:27:19, QoS Violations: 1
+2024/07/26 13:27:19 Triggering reallocation due to QoS violation
+2024/07/26 13:27:20 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:20 Time: 13:27:20, QoS Violations: 1
+2024/07/26 13:27:20 Triggering reallocation due to QoS violation
+2024/07/26 13:27:21 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:21 Time: 13:27:21, QoS Violations: 1
+2024/07/26 13:27:21 Triggering reallocation due to QoS violation
+2024/07/26 13:27:22 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:22 Time: 13:27:22, QoS Violations: 1
+2024/07/26 13:27:22 Triggering reallocation due to QoS violation
+2024/07/26 13:27:23 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:23 Time: 13:27:23, QoS Violations: 1
+2024/07/26 13:27:23 Triggering reallocation due to QoS violation
+2024/07/26 13:27:24 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:24 Time: 13:27:24, QoS Violations: 1
+2024/07/26 13:27:24 Triggering reallocation due to QoS violation
+2024/07/26 13:27:25 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:25 Time: 13:27:25, QoS Violations: 1
+2024/07/26 13:27:25 Triggering reallocation due to QoS violation
+2024/07/26 13:27:26 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:26 Time: 13:27:26, QoS Violations: 1
+2024/07/26 13:27:26 Triggering reallocation due to QoS violation
+2024/07/26 13:27:27 Time: 13:27:27, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:27:27 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:27 Time: 13:27:27, QoS Violations: 1
+2024/07/26 13:27:27 Triggering reallocation due to QoS violation
+2024/07/26 13:27:28 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:28 Time: 13:27:28, QoS Violations: 1
+2024/07/26 13:27:28 Triggering reallocation due to QoS violation
+2024/07/26 13:27:29 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:29 Time: 13:27:29, QoS Violations: 1
+2024/07/26 13:27:29 Triggering reallocation due to QoS violation
+2024/07/26 13:27:30 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:30 Time: 13:27:30, QoS Violations: 1
+2024/07/26 13:27:30 Triggering reallocation due to QoS violation
+2024/07/26 13:27:31 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:31 Time: 13:27:31, QoS Violations: 1
+2024/07/26 13:27:31 Triggering reallocation due to QoS violation
+2024/07/26 13:27:32 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:32 Time: 13:27:32, QoS Violations: 1
+2024/07/26 13:27:32 Triggering reallocation due to QoS violation
+2024/07/26 13:27:33 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:33 Time: 13:27:33, QoS Violations: 1
+2024/07/26 13:27:33 Triggering reallocation due to QoS violation
+2024/07/26 13:27:34 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:34 Time: 13:27:34, QoS Violations: 1
+2024/07/26 13:27:34 Triggering reallocation due to QoS violation
+2024/07/26 13:27:35 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:35 Time: 13:27:35, QoS Violations: 1
+2024/07/26 13:27:35 Triggering reallocation due to QoS violation
+2024/07/26 13:27:36 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:36 Time: 13:27:36, QoS Violations: 1
+2024/07/26 13:27:36 Triggering reallocation due to QoS violation
+2024/07/26 13:27:37 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:37 Time: 13:27:37, QoS Violations: 1
+2024/07/26 13:27:37 Time: 13:27:37, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:27:37 Triggering reallocation due to QoS violation
+2024/07/26 13:27:38 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:38 Time: 13:27:38, QoS Violations: 1
+2024/07/26 13:27:38 Triggering reallocation due to QoS violation
+2024/07/26 13:27:39 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:39 Time: 13:27:39, QoS Violations: 1
+2024/07/26 13:27:39 Triggering reallocation due to QoS violation
+2024/07/26 13:27:40 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:40 Time: 13:27:40, QoS Violations: 1
+2024/07/26 13:27:40 Triggering reallocation due to QoS violation
+2024/07/26 13:27:41 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:41 Time: 13:27:41, QoS Violations: 1
+2024/07/26 13:27:41 Triggering reallocation due to QoS violation
+2024/07/26 13:27:42 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:42 Time: 13:27:42, QoS Violations: 1
+2024/07/26 13:27:42 Triggering reallocation due to QoS violation
+2024/07/26 13:27:43 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:43 Time: 13:27:43, QoS Violations: 1
+2024/07/26 13:27:43 Triggering reallocation due to QoS violation
+2024/07/26 13:27:44 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:44 Time: 13:27:44, QoS Violations: 1
+2024/07/26 13:27:44 Triggering reallocation due to QoS violation
+2024/07/26 13:27:45 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:45 Time: 13:27:45, QoS Violations: 1
+2024/07/26 13:27:45 Triggering reallocation due to QoS violation
+2024/07/26 13:27:46 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:46 Time: 13:27:46, QoS Violations: 1
+2024/07/26 13:27:46 Triggering reallocation due to QoS violation
+2024/07/26 13:27:47 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:47 Time: 13:27:47, QoS Violations: 1
+2024/07/26 13:27:47 Triggering reallocation due to QoS violation
+2024/07/26 13:27:47 Time: 13:27:47, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:27:48 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:48 Time: 13:27:48, QoS Violations: 1
+2024/07/26 13:27:48 Triggering reallocation due to QoS violation
+2024/07/26 13:27:49 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:49 Time: 13:27:49, QoS Violations: 1
+2024/07/26 13:27:49 Triggering reallocation due to QoS violation
+2024/07/26 13:27:50 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:50 Time: 13:27:50, QoS Violations: 1
+2024/07/26 13:27:50 Triggering reallocation due to QoS violation
+2024/07/26 13:27:51 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:51 Time: 13:27:51, QoS Violations: 1
+2024/07/26 13:27:51 Triggering reallocation due to QoS violation
+2024/07/26 13:27:52 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:52 Time: 13:27:52, QoS Violations: 1
+2024/07/26 13:27:52 Triggering reallocation due to QoS violation
+2024/07/26 13:27:53 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:53 Time: 13:27:53, QoS Violations: 1
+2024/07/26 13:27:53 Triggering reallocation due to QoS violation
+2024/07/26 13:27:54 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:54 Time: 13:27:54, QoS Violations: 1
+2024/07/26 13:27:54 Triggering reallocation due to QoS violation
+2024/07/26 13:27:55 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:55 Time: 13:27:55, QoS Violations: 1
+2024/07/26 13:27:55 Triggering reallocation due to QoS violation
+2024/07/26 13:27:56 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:56 Time: 13:27:56, QoS Violations: 1
+2024/07/26 13:27:56 Triggering reallocation due to QoS violation
+2024/07/26 13:27:57 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:57 Time: 13:27:57, QoS Violations: 1
+2024/07/26 13:27:57 Time: 13:27:57, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:27:57 Triggering reallocation due to QoS violation
+2024/07/26 13:27:58 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:58 Time: 13:27:58, QoS Violations: 1
+2024/07/26 13:27:58 Triggering reallocation due to QoS violation
+2024/07/26 13:27:59 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:27:59 Time: 13:27:59, QoS Violations: 1
+2024/07/26 13:27:59 Triggering reallocation due to QoS violation
+2024/07/26 13:28:00 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:00 Time: 13:28:00, QoS Violations: 1
+2024/07/26 13:28:00 Triggering reallocation due to QoS violation
+2024/07/26 13:28:01 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:01 Time: 13:28:01, QoS Violations: 1
+2024/07/26 13:28:01 Triggering reallocation due to QoS violation
+2024/07/26 13:28:02 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:02 Time: 13:28:02, QoS Violations: 1
+2024/07/26 13:28:02 Triggering reallocation due to QoS violation
+2024/07/26 13:28:03 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:03 Time: 13:28:03, QoS Violations: 1
+2024/07/26 13:28:03 Triggering reallocation due to QoS violation
+2024/07/26 13:28:04 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:04 Time: 13:28:04, QoS Violations: 1
+2024/07/26 13:28:04 Triggering reallocation due to QoS violation
+2024/07/26 13:28:05 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:05 Time: 13:28:05, QoS Violations: 1
+2024/07/26 13:28:05 Triggering reallocation due to QoS violation
+2024/07/26 13:28:06 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:06 Time: 13:28:06, QoS Violations: 1
+2024/07/26 13:28:06 Triggering reallocation due to QoS violation
+2024/07/26 13:28:07 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:07 Time: 13:28:07, QoS Violations: 1
+2024/07/26 13:28:07 Triggering reallocation due to QoS violation
+2024/07/26 13:28:07 Time: 13:28:07, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:28:08 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:08 Time: 13:28:08, QoS Violations: 1
+2024/07/26 13:28:08 Triggering reallocation due to QoS violation
+2024/07/26 13:28:09 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:09 Time: 13:28:09, QoS Violations: 1
+2024/07/26 13:28:09 Triggering reallocation due to QoS violation
+2024/07/26 13:28:10 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:10 Time: 13:28:10, QoS Violations: 1
+2024/07/26 13:28:10 Triggering reallocation due to QoS violation
+2024/07/26 13:28:11 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:11 Time: 13:28:11, QoS Violations: 1
+2024/07/26 13:28:11 Triggering reallocation due to QoS violation
+2024/07/26 13:28:12 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:12 Time: 13:28:12, QoS Violations: 1
+2024/07/26 13:28:12 Triggering reallocation due to QoS violation
+2024/07/26 13:28:13 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:13 Time: 13:28:13, QoS Violations: 1
+2024/07/26 13:28:13 Triggering reallocation due to QoS violation
+2024/07/26 13:28:14 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:14 Time: 13:28:14, QoS Violations: 1
+2024/07/26 13:28:14 Triggering reallocation due to QoS violation
+2024/07/26 13:28:15 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:15 Time: 13:28:15, QoS Violations: 1
+2024/07/26 13:28:15 Triggering reallocation due to QoS violation
+2024/07/26 13:28:16 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:16 Time: 13:28:16, QoS Violations: 1
+2024/07/26 13:28:16 Triggering reallocation due to QoS violation
+2024/07/26 13:28:17 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:17 Time: 13:28:17, QoS Violations: 1
+2024/07/26 13:28:17 Time: 13:28:17, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:28:17 Triggering reallocation due to QoS violation
+2024/07/26 13:28:18 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:18 Time: 13:28:18, QoS Violations: 1
+2024/07/26 13:28:18 Triggering reallocation due to QoS violation
+2024/07/26 13:28:19 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:19 Time: 13:28:19, QoS Violations: 1
+2024/07/26 13:28:19 Triggering reallocation due to QoS violation
+2024/07/26 13:28:20 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:20 Time: 13:28:20, QoS Violations: 1
+2024/07/26 13:28:20 Triggering reallocation due to QoS violation
+2024/07/26 13:28:21 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:21 Time: 13:28:21, QoS Violations: 1
+2024/07/26 13:28:21 Triggering reallocation due to QoS violation
+2024/07/26 13:28:22 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:22 Time: 13:28:22, QoS Violations: 1
+2024/07/26 13:28:22 Triggering reallocation due to QoS violation
+2024/07/26 13:28:23 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:23 Time: 13:28:23, QoS Violations: 1
+2024/07/26 13:28:23 Triggering reallocation due to QoS violation
+2024/07/26 13:28:24 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:24 Time: 13:28:24, QoS Violations: 1
+2024/07/26 13:28:24 Triggering reallocation due to QoS violation
+2024/07/26 13:28:25 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:25 Time: 13:28:25, QoS Violations: 1
+2024/07/26 13:28:25 Triggering reallocation due to QoS violation
+2024/07/26 13:28:26 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:26 Time: 13:28:26, QoS Violations: 1
+2024/07/26 13:28:26 Triggering reallocation due to QoS violation
+2024/07/26 13:28:27 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:27 Time: 13:28:27, QoS Violations: 1
+2024/07/26 13:28:27 Triggering reallocation due to QoS violation
+2024/07/26 13:28:27 Time: 13:28:27, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:28:28 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:28 Time: 13:28:28, QoS Violations: 1
+2024/07/26 13:28:28 Triggering reallocation due to QoS violation
+2024/07/26 13:28:29 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:29 Time: 13:28:29, QoS Violations: 1
+2024/07/26 13:28:29 Triggering reallocation due to QoS violation
+2024/07/26 13:28:30 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:30 Time: 13:28:30, QoS Violations: 1
+2024/07/26 13:28:30 Triggering reallocation due to QoS violation
+2024/07/26 13:28:31 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:31 Time: 13:28:31, QoS Violations: 1
+2024/07/26 13:28:31 Triggering reallocation due to QoS violation
+2024/07/26 13:28:32 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:32 Time: 13:28:32, QoS Violations: 1
+2024/07/26 13:28:32 Triggering reallocation due to QoS violation
+2024/07/26 13:28:33 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:33 Time: 13:28:33, QoS Violations: 1
+2024/07/26 13:28:33 Triggering reallocation due to QoS violation
+2024/07/26 13:28:34 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:34 Time: 13:28:34, QoS Violations: 1
+2024/07/26 13:28:34 Triggering reallocation due to QoS violation
+2024/07/26 13:28:35 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:35 Time: 13:28:35, QoS Violations: 1
+2024/07/26 13:28:35 Triggering reallocation due to QoS violation
+2024/07/26 13:28:36 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:36 Time: 13:28:36, QoS Violations: 1
+2024/07/26 13:28:36 Triggering reallocation due to QoS violation
+2024/07/26 13:28:37 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:37 Time: 13:28:37, QoS Violations: 1
+2024/07/26 13:28:37 Triggering reallocation due to QoS violation
+2024/07/26 13:28:37 Time: 13:28:37, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:28:38 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:38 Time: 13:28:38, QoS Violations: 1
+2024/07/26 13:28:38 Triggering reallocation due to QoS violation
+2024/07/26 13:28:39 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:39 Time: 13:28:39, QoS Violations: 1
+2024/07/26 13:28:39 Triggering reallocation due to QoS violation
+2024/07/26 13:28:40 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:40 Time: 13:28:40, QoS Violations: 1
+2024/07/26 13:28:40 Triggering reallocation due to QoS violation
+2024/07/26 13:28:41 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:41 Time: 13:28:41, QoS Violations: 1
+2024/07/26 13:28:41 Triggering reallocation due to QoS violation
+2024/07/26 13:28:42 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:42 Time: 13:28:42, QoS Violations: 1
+2024/07/26 13:28:42 Triggering reallocation due to QoS violation
+2024/07/26 13:28:43 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:43 Time: 13:28:43, QoS Violations: 1
+2024/07/26 13:28:43 Triggering reallocation due to QoS violation
+2024/07/26 13:28:44 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:44 Time: 13:28:44, QoS Violations: 1
+2024/07/26 13:28:44 Triggering reallocation due to QoS violation
+2024/07/26 13:28:45 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:45 Time: 13:28:45, QoS Violations: 1
+2024/07/26 13:28:45 Triggering reallocation due to QoS violation
+2024/07/26 13:28:46 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:46 Time: 13:28:46, QoS Violations: 1
+2024/07/26 13:28:46 Triggering reallocation due to QoS violation
+2024/07/26 13:28:47 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:47 Time: 13:28:47, QoS Violations: 1
+2024/07/26 13:28:47 Triggering reallocation due to QoS violation
+2024/07/26 13:28:47 Time: 13:28:47, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:28:48 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:48 Time: 13:28:48, QoS Violations: 1
+2024/07/26 13:28:48 Triggering reallocation due to QoS violation
+2024/07/26 13:28:49 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:49 Time: 13:28:49, QoS Violations: 1
+2024/07/26 13:28:49 Triggering reallocation due to QoS violation
+2024/07/26 13:28:50 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:50 Time: 13:28:50, QoS Violations: 1
+2024/07/26 13:28:50 Triggering reallocation due to QoS violation
+2024/07/26 13:28:51 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:51 Time: 13:28:51, QoS Violations: 1
+2024/07/26 13:28:51 Triggering reallocation due to QoS violation
+2024/07/26 13:28:52 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:52 Time: 13:28:52, QoS Violations: 1
+2024/07/26 13:28:52 Triggering reallocation due to QoS violation
+2024/07/26 13:28:53 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:53 Time: 13:28:53, QoS Violations: 1
+2024/07/26 13:28:53 Triggering reallocation due to QoS violation
+2024/07/26 13:28:54 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:54 Time: 13:28:54, QoS Violations: 1
+2024/07/26 13:28:54 Triggering reallocation due to QoS violation
+2024/07/26 13:28:55 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:55 Time: 13:28:55, QoS Violations: 1
+2024/07/26 13:28:55 Triggering reallocation due to QoS violation
+2024/07/26 13:28:56 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:56 Time: 13:28:56, QoS Violations: 1
+2024/07/26 13:28:56 Triggering reallocation due to QoS violation
+2024/07/26 13:28:57 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:57 Time: 13:28:57, QoS Violations: 1
+2024/07/26 13:28:57 Time: 13:28:57, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:28:57 Triggering reallocation due to QoS violation
+2024/07/26 13:28:58 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:58 Time: 13:28:58, QoS Violations: 1
+2024/07/26 13:28:58 Triggering reallocation due to QoS violation
+2024/07/26 13:28:59 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:28:59 Time: 13:28:59, QoS Violations: 1
+2024/07/26 13:28:59 Triggering reallocation due to QoS violation
+2024/07/26 13:29:00 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:00 Time: 13:29:00, QoS Violations: 1
+2024/07/26 13:29:00 Triggering reallocation due to QoS violation
+2024/07/26 13:29:01 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:01 Time: 13:29:01, QoS Violations: 1
+2024/07/26 13:29:01 Triggering reallocation due to QoS violation
+2024/07/26 13:29:02 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:02 Time: 13:29:02, QoS Violations: 1
+2024/07/26 13:29:02 Triggering reallocation due to QoS violation
+2024/07/26 13:29:03 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:03 Time: 13:29:03, QoS Violations: 1
+2024/07/26 13:29:03 Triggering reallocation due to QoS violation
+2024/07/26 13:29:04 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:04 Time: 13:29:04, QoS Violations: 1
+2024/07/26 13:29:04 Triggering reallocation due to QoS violation
+2024/07/26 13:29:05 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:05 Time: 13:29:05, QoS Violations: 1
+2024/07/26 13:29:05 Triggering reallocation due to QoS violation
+2024/07/26 13:29:06 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:06 Time: 13:29:06, QoS Violations: 1
+2024/07/26 13:29:06 Triggering reallocation due to QoS violation
+2024/07/26 13:29:07 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:07 Time: 13:29:07, QoS Violations: 1
+2024/07/26 13:29:07 Time: 13:29:07, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:29:07 Triggering reallocation due to QoS violation
+2024/07/26 13:29:08 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:08 Time: 13:29:08, QoS Violations: 1
+2024/07/26 13:29:08 Triggering reallocation due to QoS violation
+2024/07/26 13:29:09 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:09 Time: 13:29:09, QoS Violations: 1
+2024/07/26 13:29:09 Triggering reallocation due to QoS violation
+2024/07/26 13:29:10 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:10 Time: 13:29:10, QoS Violations: 1
+2024/07/26 13:29:10 Triggering reallocation due to QoS violation
+2024/07/26 13:29:11 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:11 Time: 13:29:11, QoS Violations: 1
+2024/07/26 13:29:11 Triggering reallocation due to QoS violation
+2024/07/26 13:29:12 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:12 Time: 13:29:12, QoS Violations: 1
+2024/07/26 13:29:12 Triggering reallocation due to QoS violation
+2024/07/26 13:29:13 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:13 Time: 13:29:13, QoS Violations: 1
+2024/07/26 13:29:13 Triggering reallocation due to QoS violation
+2024/07/26 13:29:14 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:14 Time: 13:29:14, QoS Violations: 1
+2024/07/26 13:29:14 Triggering reallocation due to QoS violation
+2024/07/26 13:29:15 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:15 Time: 13:29:15, QoS Violations: 1
+2024/07/26 13:29:15 Triggering reallocation due to QoS violation
+2024/07/26 13:29:16 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:16 Time: 13:29:16, QoS Violations: 1
+2024/07/26 13:29:16 Triggering reallocation due to QoS violation
+2024/07/26 13:29:17 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:17 Time: 13:29:17, QoS Violations: 1
+2024/07/26 13:29:17 Triggering reallocation due to QoS violation
+2024/07/26 13:29:17 Time: 13:29:17, CPU: 53.70%, Memory: 31.65%, GPU: 243.10%
+2024/07/26 13:29:18 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:18 Time: 13:29:18, QoS Violations: 1
+2024/07/26 13:29:18 Triggering reallocation due to QoS violation
+2024/07/26 13:29:19 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:19 Time: 13:29:19, QoS Violations: 1
+2024/07/26 13:29:19 Triggering reallocation due to QoS violation
+2024/07/26 13:29:20 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:20 Time: 13:29:20, QoS Violations: 1
+2024/07/26 13:29:20 Triggering reallocation due to QoS violation
+2024/07/26 13:29:21 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:21 Time: 13:29:21, QoS Violations: 1
+2024/07/26 13:29:21 Triggering reallocation due to QoS violation
+2024/07/26 13:29:22 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:22 Time: 13:29:22, QoS Violations: 1
+2024/07/26 13:29:22 Triggering reallocation due to QoS violation
+2024/07/26 13:29:23 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:23 Time: 13:29:23, QoS Violations: 1
+2024/07/26 13:29:23 Triggering reallocation due to QoS violation
+2024/07/26 13:29:24 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:24 Time: 13:29:24, QoS Violations: 1
+2024/07/26 13:29:24 Triggering reallocation due to QoS violation
+2024/07/26 13:29:25 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:25 Time: 13:29:25, QoS Violations: 1
+2024/07/26 13:29:25 Triggering reallocation due to QoS violation
+2024/07/26 13:29:26 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:29:26 Time: 13:29:26, QoS Violations: 1
+2024/07/26 13:29:26 Triggering reallocation due to QoS violation
+2024/07/26 13:29:27 Orchestrator run completed
+2024/07/26 13:29:57 Workload changed. Triggering reallocation...
+2024/07/26 13:29:57 Triggering reallocation due to QoS violation
+2024/07/26 13:30:28 Workload changed. Triggering reallocation...
+2024/07/26 13:30:28 Triggering reallocation due to QoS violation
+2024/07/26 13:30:58 Workload changed. Triggering reallocation...
+2024/07/26 13:30:58 Triggering reallocation due to QoS violation
+2024/07/26 13:31:27 Workload changed. Triggering reallocation...
+2024/07/26 13:31:27 Triggering reallocation due to QoS violation
+2024/07/26 13:31:58 Workload changed. Triggering reallocation...
+2024/07/26 13:31:58 Triggering reallocation due to QoS violation
+2024/07/26 13:32:28 Workload changed. Triggering reallocation...
+2024/07/26 13:32:28 Triggering reallocation due to QoS violation
+2024/07/26 13:32:57 Workload changed. Triggering reallocation...
+2024/07/26 13:32:57 Triggering reallocation due to QoS violation
+2024/07/26 13:33:28 Workload changed. Triggering reallocation...
+2024/07/26 13:33:28 Triggering reallocation due to QoS violation
+2024/07/26 13:33:58 Workload changed. Triggering reallocation...
+2024/07/26 13:33:58 Triggering reallocation due to QoS violation
+2024/07/26 13:34:27 Workload changed. Triggering reallocation...
+2024/07/26 13:34:27 Triggering reallocation due to QoS violation
+2024/07/26 13:34:27 Final metrics: {CPUUsage:53.93117370292405 MemoryUsage:31.006888516107168 GPUUsage:243.10252784879802 IOUsage:50}
+2024/07/26 13:34:27 GPU usage violated: 243.102528 > 95.000000
+2024/07/26 13:34:27 Time: 13:34:27, QoS Violations: 1
+2024/07/26 13:34:27 QoS requirements not met.
+2024/07/26 13:34:27 Priority simulation complete.

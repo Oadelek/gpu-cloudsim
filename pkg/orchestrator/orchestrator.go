@@ -91,7 +91,7 @@ func (o *Orchestrator) monitorQoS(duration time.Duration) {
 		select {
 		case <-ticker.C:
 			metrics := o.MetricsCollector.GetLatestMetrics()
-			if !o.QoSMonitor.Monitor(metrics) {
+			if !o.QoSMonitor.Monitor(metrics, o.Logger) {
 				// QoS violated, trigger reallocation
 				o.TriggerReallocation()
 			}

@@ -16,6 +16,9 @@ import (
 const (
 	simulationDuration     = 5 * time.Minute
 	workloadChangeInterval = 30 * time.Second
+	numHosts               = 100 // Number of hosts
+	numGPUs                = 200 // Number of GPUs
+	numContainers          = 500 // Number of containers
 )
 
 func main() {
@@ -75,7 +78,7 @@ func runSimulation(name string, strategy scheduler.Scheduler, hosts []*models.Ho
 	finalMetrics := b.GetCurrentMetrics()
 	logger.Printf("Final metrics: %+v\n", finalMetrics)
 
-	isQoSMet := qosMonitor.Monitor(finalMetrics)
+	isQoSMet := qosMonitor.Monitor(finalMetrics, logger)
 	if isQoSMet {
 		logger.Println("QoS requirements met.")
 	} else {
@@ -113,43 +116,27 @@ func simulateWorkloadChanges(orch *orchestrator.Orchestrator, duration time.Dura
 }
 
 func createHosts() []*models.Host {
-	return []*models.Host{
-		models.NewHost("host-1", 32, 65536),   // 32 cores, 64 GB RAM
-		models.NewHost("host-2", 64, 131072),  // 64 cores, 128 GB RAM
-		models.NewHost("host-3", 48, 98304),   // 48 cores, 96 GB RAM
-		models.NewHost("host-4", 96, 262144),  // 96 cores, 256 GB RAM
-		models.NewHost("host-5", 128, 524288), // 128 cores, 512 GB RAM
+	hosts := make([]*models.Host, numHosts)
+	for i := 0; i < numHosts; i++ {
+		hosts[i] = models.NewHost(fmt.Sprintf("host-%d", i+1), 32+rand.Intn(128), 65536+rand.Intn(524288))
 	}
+	return hosts
 }
 
 func createGPUs() []*models.GPU {
-	return []*models.GPU{
-		models.NewGPU("gpu-1", 3584, 224, 8192, 900, 13.4, 250),
-		models.NewGPU("gpu-2", 4352, 272, 16384, 1200, 18.6, 300),
-		models.NewGPU("gpu-3", 5120, 320, 24576, 1500, 21.2, 350),
-		models.NewGPU("gpu-4", 6144, 384, 32768, 1800, 24.6, 400),
-		models.NewGPU("gpu-5", 7168, 448, 40960, 2100, 28.3, 450),
-		models.NewGPU("gpu-6", 8192, 512, 49152, 2400, 32.1, 500),
-		models.NewGPU("gpu-7", 3072, 192, 6144, 800, 11.3, 200),
-		models.NewGPU("gpu-8", 3840, 240, 12288, 1000, 15.7, 275),
-		models.NewGPU("gpu-9", 4608, 288, 20480, 1300, 19.9, 325),
-		models.NewGPU("gpu-10", 5376, 336, 28672, 1600, 23.5, 375),
+	gpus := make([]*models.GPU, numGPUs)
+	for i := 0; i < numGPUs; i++ {
+		gpus[i] = models.NewGPU(fmt.Sprintf("gpu-%d", i+1), 3584+rand.Intn(8192), 224+rand.Intn(512), 8192+rand.Intn(49152), 900+rand.Intn(2400), 13.4+rand.Float64()*18.7, 250+rand.Intn(250))
 	}
+	return gpus
 }
 
 func createContainers(gpus []*models.GPU) []*models.Container {
-	return []*models.Container{
-		models.NewContainer("container-1", 8000, 16384, gpus[0], 1),  // 8 cores, 16 GB RAM, using gpu-1
-		models.NewContainer("container-2", 4000, 8192, gpus[0], 2),   // 4 cores, 8 GB RAM, using gpu-1
-		models.NewContainer("container-3", 2000, 4096, gpus[1], 3),   // 2 cores, 4 GB RAM, using gpu-2
-		models.NewContainer("container-4", 6000, 12288, gpus[1], 1),  // 6 cores, 12 GB RAM, using gpu-2
-		models.NewContainer("container-5", 3000, 6144, gpus[2], 2),   // 3 cores, 6 GB RAM, using gpu-3
-		models.NewContainer("container-6", 5000, 10240, gpus[2], 3),  // 5 cores, 10 GB RAM, using gpu-3
-		models.NewContainer("container-7", 7000, 14336, gpus[0], 1),  // 7 cores, 14 GB RAM, using gpu-1
-		models.NewContainer("container-8", 4500, 9216, gpus[1], 2),   // 4.5 cores, 9 GB RAM, using gpu-2
-		models.NewContainer("container-9", 3500, 7168, gpus[2], 3),   // 3.5 cores, 7 GB RAM, using gpu-3
-		models.NewContainer("container-10", 5500, 11264, gpus[0], 1), // 5.5 cores, 11 GB RAM, using gpu-1
+	containers := make([]*models.Container, numContainers)
+	for i := 0; i < numContainers; i++ {
+		containers[i] = models.NewContainer(fmt.Sprintf("container-%d", i+1), 1000+rand.Intn(16000), 2048+rand.Intn(32768), gpus[rand.Intn(len(gpus))], 1+rand.Intn(3))
 	}
+	return containers
 }
 
 func createQoSMonitor() *qos.QoS {
