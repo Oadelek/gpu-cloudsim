@@ -14,11 +14,11 @@ import (
 )
 
 const (
-	simulationDuration     = 5 * time.Minute
+	simulationDuration     = 3 * time.Minute
 	workloadChangeInterval = 30 * time.Second
 	numHosts               = 100 // Number of hosts
-	numGPUs                = 200 // Number of GPUs
-	numContainers          = 500 // Number of containers
+	numGPUs                = 300 // Number of GPUs
+	numContainers          = 100 // Number of containers
 )
 
 func main() {

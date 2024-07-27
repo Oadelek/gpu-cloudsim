@@ -1,0 +1,1131 @@
+2024/07/26 14:19:19 Starting Priority simulation
+2024/07/26 14:19:19 Starting orchestrator run
+2024/07/26 14:19:19 Error allocating resources: unable to allocate resources for container container-100
+2024/07/26 14:19:19 Error running orchestrator: unable to allocate resources for container container-100
+2024/07/26 14:19:57 Starting Priority simulation
+2024/07/26 14:19:57 Starting orchestrator run
+2024/07/26 14:19:57 Starting QoS monitoring
+2024/07/26 14:19:57 Starting metrics collection
+2024/07/26 14:20:07 Time: 14:20:07, CPU: 1.72%, Memory: 0.90%, GPU: 6.57%
+2024/07/26 14:20:17 Time: 14:20:17, CPU: 1.72%, Memory: 0.90%, GPU: 6.57%
+2024/07/26 14:20:27 Time: 14:20:27, CPU: 1.72%, Memory: 0.90%, GPU: 6.57%
+2024/07/26 14:20:37 Time: 14:20:37, CPU: 1.72%, Memory: 0.90%, GPU: 6.57%
+2024/07/26 14:20:47 Time: 14:20:47, CPU: 1.72%, Memory: 0.90%, GPU: 6.57%
+2024/07/26 14:20:57 Time: 14:20:57, CPU: 1.72%, Memory: 0.90%, GPU: 6.57%
+2024/07/26 14:21:07 Time: 14:21:07, CPU: 1.72%, Memory: 0.90%, GPU: 6.57%
+2024/07/26 14:21:17 Time: 14:21:17, CPU: 1.72%, Memory: 0.90%, GPU: 6.57%
+2024/07/26 14:21:27 Time: 14:21:27, CPU: 1.72%, Memory: 0.90%, GPU: 6.57%
+2024/07/26 14:21:37 Time: 14:21:37, CPU: 1.72%, Memory: 0.90%, GPU: 6.57%
+2024/07/26 14:21:47 Time: 14:21:47, CPU: 1.72%, Memory: 0.90%, GPU: 6.57%
+2024/07/26 14:21:57 Time: 14:21:57, CPU: 1.72%, Memory: 0.90%, GPU: 6.57%
+2024/07/26 14:22:07 Time: 14:22:07, CPU: 1.72%, Memory: 0.90%, GPU: 6.57%
+2024/07/26 14:22:17 Time: 14:22:17, CPU: 1.72%, Memory: 0.90%, GPU: 6.57%
+2024/07/26 14:22:27 Time: 14:22:27, CPU: 1.72%, Memory: 0.90%, GPU: 6.57%
+2024/07/26 14:22:37 Time: 14:22:37, CPU: 1.72%, Memory: 0.90%, GPU: 6.57%
+2024/07/26 14:22:47 Time: 14:22:47, CPU: 1.72%, Memory: 0.90%, GPU: 6.57%
+2024/07/26 14:22:57 Orchestrator run completed
+2024/07/26 14:23:27 Workload changed. Triggering reallocation...
+2024/07/26 14:23:27 Triggering reallocation due to QoS violation
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-81 from host host-1 to host host-9
+2024/07/26 14:23:27 Migrated container container-81 from host host-1 to host host-9
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-28 from host host-1 to host host-7
+2024/07/26 14:23:27 Migrated container container-28 from host host-1 to host host-7
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-4 from host host-1 to host host-8
+2024/07/26 14:23:27 Migrated container container-4 from host host-1 to host host-8
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-18 from host host-1 to host host-13
+2024/07/26 14:23:27 Migrated container container-18 from host host-1 to host host-13
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-15 from host host-1 to host host-19
+2024/07/26 14:23:27 Migrated container container-15 from host host-1 to host host-19
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-78 from host host-1 to host host-15
+2024/07/26 14:23:27 Migrated container container-78 from host host-1 to host host-15
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-84 from host host-1 to host host-16
+2024/07/26 14:23:27 Migrated container container-84 from host host-1 to host host-16
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-26 from host host-1 to host host-18
+2024/07/26 14:23:27 Migrated container container-26 from host host-1 to host host-18
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-26 from host host-1 to host host-21
+2024/07/26 14:23:27 Migrated container container-26 from host host-1 to host host-21
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-26 from host host-1 to host host-42
+2024/07/26 14:23:27 Migrated container container-26 from host host-1 to host host-42
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-26 from host host-1 to host host-58
+2024/07/26 14:23:27 Migrated container container-26 from host host-1 to host host-58
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-26 from host host-1 to host host-122
+2024/07/26 14:23:27 Migrated container container-26 from host host-1 to host host-122
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-26 from host host-1 to host host-74
+2024/07/26 14:23:27 Migrated container container-26 from host host-1 to host host-74
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-26 from host host-1 to host host-259
+2024/07/26 14:23:27 Migrated container container-26 from host host-1 to host host-259
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-26 from host host-1 to host host-609
+2024/07/26 14:23:27 Migrated container container-26 from host host-1 to host host-609
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-96 from host host-2 to host host-27
+2024/07/26 14:23:27 Migrated container container-96 from host host-2 to host host-27
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-19 from host host-2 to host host-23
+2024/07/26 14:23:27 Migrated container container-19 from host host-2 to host host-23
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-43 from host host-2 to host host-25
+2024/07/26 14:23:27 Migrated container container-43 from host host-2 to host host-25
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-44 from host host-2 to host host-52
+2024/07/26 14:23:27 Migrated container container-44 from host host-2 to host host-52
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-68 from host host-2 to host host-50
+2024/07/26 14:23:27 Migrated container container-68 from host host-2 to host host-50
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-10 from host host-2 to host host-43
+2024/07/26 14:23:27 Migrated container container-10 from host host-2 to host host-43
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-72 from host host-2 to host host-26
+2024/07/26 14:23:27 Migrated container container-72 from host host-2 to host host-26
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-92 from host host-2 to host host-75
+2024/07/26 14:23:27 Migrated container container-92 from host host-2 to host host-75
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-92 from host host-2 to host host-79
+2024/07/26 14:23:27 Migrated container container-92 from host host-2 to host host-79
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-92 from host host-2 to host host-309
+2024/07/26 14:23:27 Migrated container container-92 from host host-2 to host host-309
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-92 from host host-2 to host host-71
+2024/07/26 14:23:27 Migrated container container-92 from host host-2 to host host-71
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-92 from host host-2 to host host-183
+2024/07/26 14:23:27 Migrated container container-92 from host host-2 to host host-183
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-92 from host host-2 to host host-533
+2024/07/26 14:23:27 Migrated container container-92 from host host-2 to host host-533
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-13 from host host-6 to host host-45
+2024/07/26 14:23:27 Migrated container container-13 from host host-6 to host host-45
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-57 from host host-6 to host host-88
+2024/07/26 14:23:27 Migrated container container-57 from host host-6 to host host-88
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-59 from host host-6 to host host-92
+2024/07/26 14:23:27 Migrated container container-59 from host host-6 to host host-92
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-70 from host host-6 to host host-54
+2024/07/26 14:23:27 Migrated container container-70 from host host-6 to host host-54
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-70 from host host-6 to host host-51
+2024/07/26 14:23:27 Migrated container container-70 from host host-6 to host host-51
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-70 from host host-6 to host host-210
+2024/07/26 14:23:27 Migrated container container-70 from host host-6 to host host-210
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-70 from host host-6 to host host-560
+2024/07/26 14:23:27 Migrated container container-70 from host host-6 to host host-560
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-36 from host host-3 to host host-56
+2024/07/26 14:23:27 Migrated container container-36 from host host-3 to host host-56
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-47 from host host-3 to host host-53
+2024/07/26 14:23:27 Migrated container container-47 from host host-3 to host host-53
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-2 from host host-3 to host host-30
+2024/07/26 14:23:27 Migrated container container-2 from host host-3 to host host-30
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-2 from host host-3 to host host-49
+2024/07/26 14:23:27 Migrated container container-2 from host host-3 to host host-49
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-2 from host host-3 to host host-194
+2024/07/26 14:23:27 Migrated container container-2 from host host-3 to host host-194
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-88 from host host-17 to host host-83
+2024/07/26 14:23:27 Migrated container container-88 from host host-17 to host host-83
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-27 from host host-17 to host host-129
+2024/07/26 14:23:27 Migrated container container-27 from host host-17 to host host-129
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-61 from host host-17 to host host-180
+2024/07/26 14:23:27 Migrated container container-61 from host host-17 to host host-180
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-11 from host host-17 to host host-173
+2024/07/26 14:23:27 Migrated container container-11 from host host-17 to host host-173
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-98 from host host-17 to host host-189
+2024/07/26 14:23:27 Migrated container container-98 from host host-17 to host host-189
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-51 from host host-17 to host host-126
+2024/07/26 14:23:27 Migrated container container-51 from host host-17 to host host-126
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-51 from host host-17 to host host-195
+2024/07/26 14:23:27 Migrated container container-51 from host host-17 to host host-195
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-51 from host host-17 to host host-374
+2024/07/26 14:23:27 Migrated container container-51 from host host-17 to host host-374
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-75 from host host-5 to host host-60
+2024/07/26 14:23:27 Migrated container container-75 from host host-5 to host host-60
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-65 from host host-5 to host host-80
+2024/07/26 14:23:27 Migrated container container-65 from host host-5 to host host-80
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-99 from host host-5 to host host-64
+2024/07/26 14:23:27 Migrated container container-99 from host host-5 to host host-64
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-52 from host host-5 to host host-87
+2024/07/26 14:23:27 Migrated container container-52 from host host-5 to host host-87
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-66 from host host-5 to host host-69
+2024/07/26 14:23:27 Migrated container container-66 from host host-5 to host host-69
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-23 from host host-5 to host host-31
+2024/07/26 14:23:27 Migrated container container-23 from host host-5 to host host-31
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-46 from host host-5 to host host-89
+2024/07/26 14:23:27 Migrated container container-46 from host host-5 to host host-89
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-30 from host host-5 to host host-84
+2024/07/26 14:23:27 Migrated container container-30 from host host-5 to host host-84
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-30 from host host-5 to host host-106
+2024/07/26 14:23:27 Migrated container container-30 from host host-5 to host host-106
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-30 from host host-5 to host host-144
+2024/07/26 14:23:27 Migrated container container-30 from host host-5 to host host-144
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-30 from host host-5 to host host-72
+2024/07/26 14:23:27 Migrated container container-30 from host host-5 to host host-72
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-30 from host host-5 to host host-115
+2024/07/26 14:23:27 Migrated container container-30 from host host-5 to host host-115
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-30 from host host-5 to host host-57
+2024/07/26 14:23:27 Migrated container container-30 from host host-5 to host host-57
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-30 from host host-5 to host host-230
+2024/07/26 14:23:27 Migrated container container-30 from host host-5 to host host-230
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-53 from host host-4 to host host-62
+2024/07/26 14:23:27 Migrated container container-53 from host host-4 to host host-62
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-54 from host host-4 to host host-34
+2024/07/26 14:23:27 Migrated container container-54 from host host-4 to host host-34
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-54 from host host-4 to host host-98
+2024/07/26 14:23:27 Migrated container container-54 from host host-4 to host host-98
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-22 from host host-12 to host host-192
+2024/07/26 14:23:27 Migrated container container-22 from host host-12 to host host-192
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-86 from host host-12 to host host-220
+2024/07/26 14:23:27 Migrated container container-86 from host host-12 to host host-220
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-77 from host host-12 to host host-66
+2024/07/26 14:23:27 Migrated container container-77 from host host-12 to host host-66
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-77 from host host-12 to host host-28
+2024/07/26 14:23:27 Migrated container container-77 from host host-12 to host host-28
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-89 from host host-20 to host host-269
+2024/07/26 14:23:27 Migrated container container-89 from host host-20 to host host-269
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-21 from host host-20 to host host-77
+2024/07/26 14:23:27 Migrated container container-21 from host host-20 to host host-77
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-33 from host host-184 to host host-534
+2024/07/26 14:23:27 Migrated container container-33 from host host-184 to host host-534
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-17 from host host-184 to host host-306
+2024/07/26 14:23:27 Migrated container container-17 from host host-184 to host host-306
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-31 from host host-10 to host host-81
+2024/07/26 14:23:27 Migrated container container-31 from host host-10 to host host-81
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-48 from host host-10 to host host-100
+2024/07/26 14:23:27 Migrated container container-48 from host host-10 to host host-100
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-12 from host host-10 to host host-20
+2024/07/26 14:23:27 Migrated container container-12 from host host-10 to host host-20
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-12 from host host-10 to host host-33
+2024/07/26 14:23:27 Migrated container container-12 from host host-10 to host host-33
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-95 from host host-24 to host host-94
+2024/07/26 14:23:27 Migrated container container-95 from host host-24 to host host-94
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-85 from host host-24 to host host-142
+2024/07/26 14:23:27 Migrated container container-85 from host host-24 to host host-142
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-85 from host host-24 to host host-152
+2024/07/26 14:23:27 Migrated container container-85 from host host-24 to host host-152
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-5 from host host-47 to host host-110
+2024/07/26 14:23:27 Migrated container container-5 from host host-47 to host host-110
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-35 from host host-47 to host host-397
+2024/07/26 14:23:27 Migrated container container-35 from host host-47 to host host-397
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-35 from host host-47 to host host-619
+2024/07/26 14:23:27 Migrated container container-35 from host host-47 to host host-619
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-14 from host host-29 to host host-128
+2024/07/26 14:23:27 Migrated container container-14 from host host-29 to host host-128
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-40 from host host-29 to host host-184
+2024/07/26 14:23:27 Migrated container container-40 from host host-29 to host host-184
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-74 from host host-41 to host host-319
+2024/07/26 14:23:27 Migrated container container-74 from host host-41 to host host-319
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-97 from host host-14 to host host-120
+2024/07/26 14:23:27 Migrated container container-97 from host host-14 to host host-120
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-55 from host host-14 to host host-117
+2024/07/26 14:23:27 Migrated container container-55 from host host-14 to host host-117
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-42 from host host-155 to host host-505
+2024/07/26 14:23:27 Migrated container container-42 from host host-155 to host host-505
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-38 from host host-91 to host host-235
+2024/07/26 14:23:27 Migrated container container-38 from host host-91 to host host-235
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-83 from host host-91 to host host-441
+2024/07/26 14:23:27 Migrated container container-83 from host host-91 to host host-441
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-6 from host host-39 to host host-389
+2024/07/26 14:23:27 Migrated container container-6 from host host-39 to host host-389
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-67 from host host-227 to host host-577
+2024/07/26 14:23:27 Migrated container container-67 from host host-227 to host host-577
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-93 from host host-103 to host host-343
+2024/07/26 14:23:27 Migrated container container-93 from host host-103 to host host-343
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-25 from host host-22 to host host-91
+2024/07/26 14:23:27 Migrated container container-25 from host host-22 to host host-91
+2024/07/26 14:23:27 Time: 14:23:27, Migrated container container-49 from host host-282 to host host-632
+2024/07/26 14:23:27 Migrated container container-49 from host host-282 to host host-632
+2024/07/26 14:23:58 Workload changed. Triggering reallocation...
+2024/07/26 14:23:58 Triggering reallocation due to QoS violation
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-45 from host host-1 to host host-14
+2024/07/26 14:23:58 Migrated container container-45 from host host-1 to host host-14
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-90 from host host-1 to host host-22
+2024/07/26 14:23:58 Migrated container container-90 from host host-1 to host host-22
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-9 from host host-1 to host host-39
+2024/07/26 14:23:58 Migrated container container-9 from host host-1 to host host-39
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-50 from host host-1 to host host-40
+2024/07/26 14:23:58 Migrated container container-50 from host host-1 to host host-40
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-50 from host host-1 to host host-99
+2024/07/26 14:23:58 Migrated container container-50 from host host-1 to host host-99
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-50 from host host-1 to host host-132
+2024/07/26 14:23:58 Migrated container container-50 from host host-1 to host host-132
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-50 from host host-1 to host host-237
+2024/07/26 14:23:58 Migrated container container-50 from host host-1 to host host-237
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-29 from host host-3 to host host-41
+2024/07/26 14:23:58 Migrated container container-29 from host host-3 to host host-41
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-3 from host host-3 to host host-70
+2024/07/26 14:23:58 Migrated container container-3 from host host-3 to host host-70
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-80 from host host-2 to host host-35
+2024/07/26 14:23:58 Migrated container container-80 from host host-2 to host host-35
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-41 from host host-2 to host host-44
+2024/07/26 14:23:58 Migrated container container-41 from host host-2 to host host-44
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-71 from host host-2 to host host-78
+2024/07/26 14:23:58 Migrated container container-71 from host host-2 to host host-78
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-58 from host host-2 to host host-59
+2024/07/26 14:23:58 Migrated container container-58 from host host-2 to host host-59
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-58 from host host-2 to host host-103
+2024/07/26 14:23:58 Migrated container container-58 from host host-2 to host host-103
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-58 from host host-2 to host host-453
+2024/07/26 14:23:58 Migrated container container-58 from host host-2 to host host-453
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-16 from host host-6 to host host-97
+2024/07/26 14:23:58 Migrated container container-16 from host host-6 to host host-97
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-79 from host host-6 to host host-11
+2024/07/26 14:23:58 Migrated container container-79 from host host-6 to host host-11
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-79 from host host-6 to host host-96
+2024/07/26 14:23:58 Migrated container container-79 from host host-6 to host host-96
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-10 from host host-43 to host host-227
+2024/07/26 14:23:58 Migrated container container-10 from host host-43 to host host-227
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-73 from host host-5 to host host-73
+2024/07/26 14:23:58 Migrated container container-73 from host host-5 to host host-73
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-94 from host host-5 to host host-105
+2024/07/26 14:23:58 Migrated container container-94 from host host-5 to host host-105
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-69 from host host-5 to host host-112
+2024/07/26 14:23:58 Migrated container container-69 from host host-5 to host host-112
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-87 from host host-5 to host host-46
+2024/07/26 14:23:58 Migrated container container-87 from host host-5 to host host-46
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-87 from host host-5 to host host-3
+2024/07/26 14:23:58 Migrated container container-87 from host host-5 to host host-3
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-87 from host host-5 to host host-198
+2024/07/26 14:23:58 Migrated container container-87 from host host-5 to host host-198
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-12 from host host-33 to host host-43
+2024/07/26 14:23:58 Migrated container container-12 from host host-33 to host host-43
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-53 from host host-62 to host host-160
+2024/07/26 14:23:58 Migrated container container-53 from host host-62 to host host-160
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-56 from host host-17 to host host-282
+2024/07/26 14:23:58 Migrated container container-56 from host host-17 to host host-282
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-8 from host host-17 to host host-153
+2024/07/26 14:23:58 Migrated container container-8 from host host-17 to host host-153
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-1 from host host-17 to host host-272
+2024/07/26 14:23:58 Migrated container container-1 from host host-17 to host host-272
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-1 from host host-17 to host host-344
+2024/07/26 14:23:58 Migrated container container-1 from host host-17 to host host-344
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-11 from host host-173 to host host-86
+2024/07/26 14:23:58 Migrated container container-11 from host host-173 to host host-86
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-76 from host host-4 to host host-62
+2024/07/26 14:23:58 Migrated container container-76 from host host-4 to host host-62
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-21 from host host-77 to host host-233
+2024/07/26 14:23:58 Migrated container container-21 from host host-77 to host host-233
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-31 from host host-81 to host host-168
+2024/07/26 14:23:58 Migrated container container-31 from host host-81 to host host-168
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-97 from host host-120 to host host-169
+2024/07/26 14:23:58 Migrated container container-97 from host host-120 to host host-169
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-35 from host host-619 to host host-253
+2024/07/26 14:23:58 Migrated container container-35 from host host-619 to host host-253
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-96 from host host-27 to host host-148
+2024/07/26 14:23:58 Migrated container container-96 from host host-27 to host host-148
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-72 from host host-26 to host host-27
+2024/07/26 14:23:58 Migrated container container-72 from host host-26 to host host-27
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-59 from host host-92 to host host-442
+2024/07/26 14:23:58 Migrated container container-59 from host host-92 to host host-442
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-12 from host host-20 to host host-367
+2024/07/26 14:23:58 Migrated container container-12 from host host-20 to host host-367
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-61 from host host-180 to host host-369
+2024/07/26 14:23:58 Migrated container container-61 from host host-180 to host host-369
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-13 from host host-45 to host host-334
+2024/07/26 14:23:58 Migrated container container-13 from host host-45 to host host-334
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-22 from host host-192 to host host-173
+2024/07/26 14:23:58 Migrated container container-22 from host host-192 to host host-173
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-98 from host host-189 to host host-539
+2024/07/26 14:23:58 Migrated container container-98 from host host-189 to host host-539
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-75 from host host-60 to host host-410
+2024/07/26 14:23:58 Migrated container container-75 from host host-60 to host host-410
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-54 from host host-34 to host host-289
+2024/07/26 14:23:58 Migrated container container-54 from host host-34 to host host-289
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-78 from host host-15 to host host-20
+2024/07/26 14:23:58 Migrated container container-78 from host host-15 to host host-20
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-84 from host host-16 to host host-4
+2024/07/26 14:23:58 Migrated container container-84 from host host-16 to host host-4
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-91 from host host-10 to host host-81
+2024/07/26 14:23:58 Migrated container container-91 from host host-10 to host host-81
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-66 from host host-69 to host host-287
+2024/07/26 14:23:58 Migrated container container-66 from host host-69 to host host-287
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-35 from host host-397 to host host-603
+2024/07/26 14:23:58 Migrated container container-35 from host host-397 to host host-603
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-68 from host host-50 to host host-92
+2024/07/26 14:23:58 Migrated container container-68 from host host-50 to host host-92
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-54 from host host-98 to host host-619
+2024/07/26 14:23:58 Migrated container container-54 from host host-98 to host host-619
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-81 from host host-9 to host host-45
+2024/07/26 14:23:58 Migrated container container-81 from host host-9 to host host-45
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-46 from host host-89 to host host-9
+2024/07/26 14:23:58 Migrated container container-46 from host host-89 to host host-9
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-28 from host host-7 to host host-50
+2024/07/26 14:23:58 Migrated container container-28 from host host-7 to host host-50
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-89 from host host-269 to host host-494
+2024/07/26 14:23:58 Migrated container container-89 from host host-269 to host host-494
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-86 from host host-220 to host host-189
+2024/07/26 14:23:58 Migrated container container-86 from host host-220 to host host-189
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-74 from host host-319 to host host-269
+2024/07/26 14:23:58 Migrated container container-74 from host host-319 to host host-269
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-42 from host host-505 to host host-155
+2024/07/26 14:23:58 Migrated container container-42 from host host-505 to host host-155
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-82 from host host-24 to host host-89
+2024/07/26 14:23:58 Migrated container container-82 from host host-24 to host host-89
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-27 from host host-129 to host host-24
+2024/07/26 14:23:58 Migrated container container-27 from host host-129 to host host-24
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-88 from host host-83 to host host-220
+2024/07/26 14:23:58 Migrated container container-88 from host host-83 to host host-220
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-65 from host host-80 to host host-26
+2024/07/26 14:23:58 Migrated container container-65 from host host-80 to host host-26
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-44 from host host-52 to host host-402
+2024/07/26 14:23:58 Migrated container container-44 from host host-52 to host host-402
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-32 from host host-12 to host host-69
+2024/07/26 14:23:58 Migrated container container-32 from host host-12 to host host-69
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-52 from host host-87 to host host-268
+2024/07/26 14:23:58 Migrated container container-52 from host host-87 to host host-268
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-37 from host host-29 to host host-156
+2024/07/26 14:23:58 Migrated container container-37 from host host-29 to host host-156
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-36 from host host-56 to host host-7
+2024/07/26 14:23:58 Migrated container container-36 from host host-56 to host host-7
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-5 from host host-110 to host host-12
+2024/07/26 14:23:58 Migrated container container-5 from host host-110 to host host-12
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-38 from host host-235 to host host-585
+2024/07/26 14:23:58 Migrated container container-38 from host host-235 to host host-585
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-4 from host host-8 to host host-29
+2024/07/26 14:23:58 Migrated container container-4 from host host-8 to host host-29
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-99 from host host-64 to host host-83
+2024/07/26 14:23:58 Migrated container container-99 from host host-64 to host host-83
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-2 from host host-194 to host host-319
+2024/07/26 14:23:58 Migrated container container-2 from host host-194 to host host-319
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-77 from host host-66 to host host-60
+2024/07/26 14:23:58 Migrated container container-77 from host host-66 to host host-60
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-23 from host host-31 to host host-257
+2024/07/26 14:23:58 Migrated container container-23 from host host-31 to host host-257
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-43 from host host-25 to host host-56
+2024/07/26 14:23:58 Migrated container container-43 from host host-25 to host host-56
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-17 from host host-306 to host host-87
+2024/07/26 14:23:58 Migrated container container-17 from host host-306 to host host-87
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-14 from host host-128 to host host-111
+2024/07/26 14:23:58 Migrated container container-14 from host host-128 to host host-111
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-67 from host host-577 to host host-98
+2024/07/26 14:23:58 Migrated container container-67 from host host-577 to host host-98
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-77 from host host-28 to host host-397
+2024/07/26 14:23:58 Migrated container container-77 from host host-28 to host host-397
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-19 from host host-23 to host host-110
+2024/07/26 14:23:58 Migrated container container-19 from host host-23 to host host-110
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-55 from host host-117 to host host-182
+2024/07/26 14:23:58 Migrated container container-55 from host host-117 to host host-182
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-30 from host host-106 to host host-10
+2024/07/26 14:23:58 Migrated container container-30 from host host-106 to host host-10
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-95 from host host-94 to host host-129
+2024/07/26 14:23:58 Migrated container container-95 from host host-94 to host host-129
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-93 from host host-343 to host host-118
+2024/07/26 14:23:58 Migrated container container-93 from host host-343 to host host-118
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-85 from host host-152 to host host-90
+2024/07/26 14:23:58 Migrated container container-85 from host host-152 to host host-90
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-48 from host host-100 to host host-450
+2024/07/26 14:23:58 Migrated container container-48 from host host-100 to host host-450
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-47 from host host-53 to host host-297
+2024/07/26 14:23:58 Migrated container container-47 from host host-53 to host host-297
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-57 from host host-88 to host host-162
+2024/07/26 14:23:58 Migrated container container-57 from host host-88 to host host-162
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-30 from host host-230 to host host-360
+2024/07/26 14:23:58 Migrated container container-30 from host host-230 to host host-360
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-85 from host host-142 to host host-8
+2024/07/26 14:23:58 Migrated container container-85 from host host-142 to host host-8
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-30 from host host-115 to host host-479
+2024/07/26 14:23:58 Migrated container container-30 from host host-115 to host host-479
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-30 from host host-144 to host host-577
+2024/07/26 14:23:58 Migrated container container-30 from host host-144 to host host-577
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-2 from host host-49 to host host-144
+2024/07/26 14:23:58 Migrated container container-2 from host host-49 to host host-144
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-2 from host host-30 to host host-115
+2024/07/26 14:23:58 Migrated container container-2 from host host-30 to host host-115
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-30 from host host-72 to host host-150
+2024/07/26 14:23:58 Migrated container container-30 from host host-72 to host host-150
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-30 from host host-84 to host host-49
+2024/07/26 14:23:58 Migrated container container-30 from host host-84 to host host-49
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-30 from host host-57 to host host-194
+2024/07/26 14:23:58 Migrated container container-30 from host host-57 to host host-194
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-18 from host host-13 to host host-152
+2024/07/26 14:23:58 Migrated container container-18 from host host-13 to host host-152
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-34 from host host-47 to host host-239
+2024/07/26 14:23:58 Migrated container container-34 from host host-47 to host host-239
+2024/07/26 14:23:58 Time: 14:23:58, Migrated container container-15 from host host-19 to host host-53
+2024/07/26 14:23:58 Migrated container container-15 from host host-19 to host host-53
+2024/07/26 14:24:28 Workload changed. Triggering reallocation...
+2024/07/26 14:24:28 Triggering reallocation due to QoS violation
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-91 from host host-81 to host host-47
+2024/07/26 14:24:28 Migrated container container-91 from host host-81 to host host-47
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-100 from host host-1 to host host-13
+2024/07/26 14:24:28 Migrated container container-100 from host host-1 to host host-13
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-63 from host host-1 to host host-19
+2024/07/26 14:24:28 Migrated container container-63 from host host-1 to host host-19
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-63 from host host-1 to host host-72
+2024/07/26 14:24:28 Migrated container container-63 from host host-1 to host host-72
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-87 from host host-3 to host host-84
+2024/07/26 14:24:28 Migrated container container-87 from host host-3 to host host-84
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-89 from host host-494 to host host-187
+2024/07/26 14:24:28 Migrated container container-89 from host host-494 to host host-187
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-7 from host host-6 to host host-77
+2024/07/26 14:24:28 Migrated container container-7 from host host-6 to host host-77
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-76 from host host-62 to host host-6
+2024/07/26 14:24:28 Migrated container container-76 from host host-62 to host host-6
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-75 from host host-410 to host host-424
+2024/07/26 14:24:28 Migrated container container-75 from host host-410 to host host-424
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-78 from host host-20 to host host-28
+2024/07/26 14:24:28 Migrated container container-78 from host host-20 to host host-28
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-12 from host host-43 to host host-31
+2024/07/26 14:24:28 Migrated container container-12 from host host-43 to host host-31
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-72 from host host-27 to host host-235
+2024/07/26 14:24:28 Migrated container container-72 from host host-27 to host host-235
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-81 from host host-45 to host host-395
+2024/07/26 14:24:28 Migrated container container-81 from host host-45 to host host-395
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-96 from host host-148 to host host-498
+2024/07/26 14:24:28 Migrated container container-96 from host host-148 to host host-498
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-99 from host host-83 to host host-433
+2024/07/26 14:24:28 Migrated container container-99 from host host-83 to host host-433
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-20 from host host-2 to host host-20
+2024/07/26 14:24:28 Migrated container container-20 from host host-2 to host host-20
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-64 from host host-2 to host host-27
+2024/07/26 14:24:28 Migrated container container-64 from host host-2 to host host-27
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-54 from host host-289 to host host-494
+2024/07/26 14:24:28 Migrated container container-54 from host host-289 to host host-494
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-80 from host host-35 to host host-45
+2024/07/26 14:24:28 Migrated container container-80 from host host-35 to host host-45
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-8 from host host-153 to host host-408
+2024/07/26 14:24:28 Migrated container container-8 from host host-153 to host host-408
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-97 from host host-169 to host host-165
+2024/07/26 14:24:28 Migrated container container-97 from host host-169 to host host-165
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-29 from host host-41 to host host-391
+2024/07/26 14:24:28 Migrated container container-29 from host host-41 to host host-391
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-22 from host host-173 to host host-23
+2024/07/26 14:24:28 Migrated container container-22 from host host-173 to host host-23
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-5 from host host-12 to host host-362
+2024/07/26 14:24:28 Migrated container container-5 from host host-12 to host host-362
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-54 from host host-619 to host host-173
+2024/07/26 14:24:28 Migrated container container-54 from host host-619 to host host-173
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-65 from host host-26 to host host-169
+2024/07/26 14:24:28 Migrated container container-65 from host host-26 to host host-169
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-11 from host host-86 to host host-2
+2024/07/26 14:24:28 Migrated container container-11 from host host-86 to host host-2
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-53 from host host-160 to host host-88
+2024/07/26 14:24:28 Migrated container container-53 from host host-160 to host host-88
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-42 from host host-155 to host host-264
+2024/07/26 14:24:28 Migrated container container-42 from host host-155 to host host-264
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-1 from host host-272 to host host-669
+2024/07/26 14:24:28 Migrated container container-1 from host host-272 to host host-669
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-44 from host host-402 to host host-52
+2024/07/26 14:24:28 Migrated container container-44 from host host-402 to host host-52
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-84 from host host-4 to host host-12
+2024/07/26 14:24:28 Migrated container container-84 from host host-4 to host host-12
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-21 from host host-233 to host host-295
+2024/07/26 14:24:28 Migrated container container-21 from host host-233 to host host-295
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-37 from host host-156 to host host-148
+2024/07/26 14:24:28 Migrated container container-37 from host host-156 to host host-148
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-10 from host host-227 to host host-26
+2024/07/26 14:24:28 Migrated container container-10 from host host-227 to host host-26
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-87 from host host-46 to host host-106
+2024/07/26 14:24:28 Migrated container container-87 from host host-46 to host host-106
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-31 from host host-168 to host host-518
+2024/07/26 14:24:28 Migrated container container-31 from host host-168 to host host-518
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-13 from host host-334 to host host-83
+2024/07/26 14:24:28 Migrated container container-13 from host host-334 to host host-83
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-36 from host host-7 to host host-64
+2024/07/26 14:24:28 Migrated container container-36 from host host-7 to host host-64
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-74 from host host-269 to host host-289
+2024/07/26 14:24:28 Migrated container container-74 from host host-269 to host host-289
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-90 from host host-22 to host host-43
+2024/07/26 14:24:28 Migrated container container-90 from host host-22 to host host-43
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-61 from host host-369 to host host-4
+2024/07/26 14:24:28 Migrated container container-61 from host host-369 to host host-4
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-16 from host host-97 to host host-22
+2024/07/26 14:24:28 Migrated container container-16 from host host-97 to host host-22
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-66 from host host-287 to host host-3
+2024/07/26 14:24:28 Migrated container container-66 from host host-287 to host host-3
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-9 from host host-39 to host host-269
+2024/07/26 14:24:28 Migrated container container-9 from host host-39 to host host-269
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-12 from host host-367 to host host-349
+2024/07/26 14:24:28 Migrated container container-12 from host host-367 to host host-349
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-23 from host host-257 to host host-607
+2024/07/26 14:24:28 Migrated container container-23 from host host-257 to host host-607
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-87 from host host-198 to host host-39
+2024/07/26 14:24:28 Migrated container container-87 from host host-198 to host host-39
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-28 from host host-50 to host host-100
+2024/07/26 14:24:28 Migrated container container-28 from host host-50 to host host-100
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-47 from host host-297 to host host-15
+2024/07/26 14:24:28 Migrated container container-47 from host host-297 to host host-15
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-73 from host host-73 to host host-7
+2024/07/26 14:24:28 Migrated container container-73 from host host-73 to host host-7
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-67 from host host-98 to host host-448
+2024/07/26 14:24:28 Migrated container container-67 from host host-98 to host host-448
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-46 from host host-9 to host host-50
+2024/07/26 14:24:28 Migrated container container-46 from host host-9 to host host-50
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-50 from host host-99 to host host-570
+2024/07/26 14:24:28 Migrated container container-50 from host host-99 to host host-570
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-50 from host host-237 to host host-227
+2024/07/26 14:24:28 Migrated container container-50 from host host-237 to host host-227
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-77 from host host-60 to host host-619
+2024/07/26 14:24:28 Migrated container container-77 from host host-60 to host host-619
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-1 from host host-344 to host host-639
+2024/07/26 14:24:28 Migrated container container-1 from host host-344 to host host-639
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-57 from host host-162 to host host-153
+2024/07/26 14:24:28 Migrated container container-57 from host host-162 to host host-153
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-50 from host host-40 to host host-98
+2024/07/26 14:24:28 Migrated container container-50 from host host-40 to host host-98
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-50 from host host-132 to host host-237
+2024/07/26 14:24:28 Migrated container container-50 from host host-132 to host host-237
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-60 from host host-5 to host host-60
+2024/07/26 14:24:28 Migrated container container-60 from host host-5 to host host-60
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-24 from host host-5 to host host-9
+2024/07/26 14:24:28 Migrated container container-24 from host host-5 to host host-9
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-43 from host host-56 to host host-5
+2024/07/26 14:24:28 Migrated container container-43 from host host-56 to host host-5
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-82 from host host-89 to host host-16
+2024/07/26 14:24:28 Migrated container container-82 from host host-89 to host host-16
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-4 from host host-29 to host host-379
+2024/07/26 14:24:28 Migrated container container-4 from host host-29 to host host-379
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-32 from host host-69 to host host-287
+2024/07/26 14:24:28 Migrated container container-32 from host host-69 to host host-287
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-69 from host host-112 to host host-281
+2024/07/26 14:24:28 Migrated container container-69 from host host-112 to host host-281
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-17 from host host-87 to host host-297
+2024/07/26 14:24:28 Migrated container container-17 from host host-87 to host host-297
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-30 from host host-194 to host host-544
+2024/07/26 14:24:28 Migrated container container-30 from host host-194 to host host-544
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-71 from host host-78 to host host-29
+2024/07/26 14:24:28 Migrated container container-71 from host host-78 to host host-29
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-77 from host host-397 to host host-587
+2024/07/26 14:24:28 Migrated container container-77 from host host-397 to host host-587
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-52 from host host-268 to host host-34
+2024/07/26 14:24:28 Migrated container container-52 from host host-268 to host host-34
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-88 from host host-220 to host host-367
+2024/07/26 14:24:28 Migrated container container-88 from host host-220 to host host-367
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-55 from host host-182 to host host-194
+2024/07/26 14:24:28 Migrated container container-55 from host host-182 to host host-194
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-3 from host host-70 to host host-56
+2024/07/26 14:24:28 Migrated container container-3 from host host-70 to host host-56
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-48 from host host-450 to host host-397
+2024/07/26 14:24:28 Migrated container container-48 from host host-450 to host host-397
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-39 from host host-17 to host host-89
+2024/07/26 14:24:28 Migrated container container-39 from host host-17 to host host-89
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-14 from host host-111 to host host-155
+2024/07/26 14:24:28 Migrated container container-14 from host host-111 to host host-155
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-79 from host host-11 to host host-17
+2024/07/26 14:24:28 Migrated container container-79 from host host-11 to host host-17
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-85 from host host-90 to host host-62
+2024/07/26 14:24:28 Migrated container container-85 from host host-90 to host host-62
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-93 from host host-118 to host host-87
+2024/07/26 14:24:28 Migrated container container-93 from host host-118 to host host-87
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-19 from host host-110 to host host-57
+2024/07/26 14:24:28 Migrated container container-19 from host host-110 to host host-57
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-41 from host host-44 to host host-110
+2024/07/26 14:24:28 Migrated container container-41 from host host-44 to host host-110
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-2 from host host-115 to host host-30
+2024/07/26 14:24:28 Migrated container container-2 from host host-115 to host host-30
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-2 from host host-144 to host host-99
+2024/07/26 14:24:28 Migrated container container-2 from host host-144 to host host-99
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-2 from host host-319 to host host-69
+2024/07/26 14:24:28 Migrated container container-2 from host host-319 to host host-69
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-45 from host host-14 to host host-220
+2024/07/26 14:24:28 Migrated container container-45 from host host-14 to host host-220
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-18 from host host-152 to host host-14
+2024/07/26 14:24:28 Migrated container container-18 from host host-152 to host host-14
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-30 from host host-360 to host host-319
+2024/07/26 14:24:28 Migrated container container-30 from host host-360 to host host-319
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-30 from host host-10 to host host-144
+2024/07/26 14:24:28 Migrated container container-30 from host host-10 to host host-144
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-34 from host host-239 to host host-589
+2024/07/26 14:24:28 Migrated container container-34 from host host-239 to host host-589
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-30 from host host-479 to host host-115
+2024/07/26 14:24:28 Migrated container container-30 from host host-479 to host host-115
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-85 from host host-8 to host host-97
+2024/07/26 14:24:28 Migrated container container-85 from host host-8 to host host-97
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-94 from host host-105 to host host-213
+2024/07/26 14:24:28 Migrated container container-94 from host host-105 to host host-213
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-30 from host host-49 to host host-70
+2024/07/26 14:24:28 Migrated container container-30 from host host-49 to host host-70
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-30 from host host-577 to host host-49
+2024/07/26 14:24:28 Migrated container container-30 from host host-577 to host host-49
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-79 from host host-96 to host host-111
+2024/07/26 14:24:28 Migrated container container-79 from host host-96 to host host-111
+2024/07/26 14:24:28 Time: 14:24:28, Migrated container container-15 from host host-53 to host host-307
+2024/07/26 14:24:28 Migrated container container-15 from host host-53 to host host-307
+2024/07/26 14:24:57 Workload changed. Triggering reallocation...
+2024/07/26 14:24:57 Triggering reallocation due to QoS violation
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-66 from host host-3 to host host-192
+2024/07/26 14:24:57 Migrated container container-66 from host host-3 to host host-192
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-10 from host host-26 to host host-182
+2024/07/26 14:24:57 Migrated container container-10 from host host-26 to host host-182
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-76 from host host-6 to host host-3
+2024/07/26 14:24:57 Migrated container container-76 from host host-6 to host host-3
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-37 from host host-148 to host host-268
+2024/07/26 14:24:57 Migrated container container-37 from host host-148 to host host-268
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-54 from host host-494 to host host-6
+2024/07/26 14:24:57 Migrated container container-54 from host host-494 to host host-6
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-13 from host host-83 to host host-437
+2024/07/26 14:24:57 Migrated container container-13 from host host-83 to host host-437
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-62 from host host-1 to host host-10
+2024/07/26 14:24:57 Migrated container container-62 from host host-1 to host host-10
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-31 from host host-518 to host host-168
+2024/07/26 14:24:57 Migrated container container-31 from host host-518 to host host-168
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-81 from host host-395 to host host-334
+2024/07/26 14:24:57 Migrated container container-81 from host host-395 to host host-334
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-90 from host host-43 to host host-369
+2024/07/26 14:24:57 Migrated container container-90 from host host-43 to host host-369
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-7 from host host-77 to host host-230
+2024/07/26 14:24:57 Migrated container container-7 from host host-77 to host host-230
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-97 from host host-165 to host host-233
+2024/07/26 14:24:57 Migrated container container-97 from host host-165 to host host-233
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-20 from host host-20 to host host-33
+2024/07/26 14:24:57 Migrated container container-20 from host host-20 to host host-33
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-54 from host host-173 to host host-8
+2024/07/26 14:24:57 Migrated container container-54 from host host-173 to host host-8
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-11 from host host-2 to host host-20
+2024/07/26 14:24:57 Migrated container container-11 from host host-2 to host host-20
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-61 from host host-4 to host host-43
+2024/07/26 14:24:57 Migrated container container-61 from host host-4 to host host-43
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-73 from host host-7 to host host-53
+2024/07/26 14:24:57 Migrated container container-73 from host host-7 to host host-53
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-28 from host host-100 to host host-450
+2024/07/26 14:24:57 Migrated container container-28 from host host-100 to host host-450
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-78 from host host-28 to host host-100
+2024/07/26 14:24:57 Migrated container container-78 from host host-28 to host host-100
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-80 from host host-45 to host host-395
+2024/07/26 14:24:57 Migrated container container-80 from host host-45 to host host-395
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-82 from host host-16 to host host-2
+2024/07/26 14:24:57 Migrated container container-82 from host host-16 to host host-2
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-23 from host host-607 to host host-257
+2024/07/26 14:24:57 Migrated container container-23 from host host-607 to host host-257
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-21 from host host-295 to host host-494
+2024/07/26 14:24:57 Migrated container container-21 from host host-295 to host host-494
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-12 from host host-31 to host host-26
+2024/07/26 14:24:57 Migrated container container-12 from host host-31 to host host-26
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-12 from host host-349 to host host-238
+2024/07/26 14:24:57 Migrated container container-12 from host host-349 to host host-238
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-8 from host host-408 to host host-472
+2024/07/26 14:24:57 Migrated container container-8 from host host-408 to host host-472
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-29 from host host-391 to host host-41
+2024/07/26 14:24:57 Migrated container container-29 from host host-391 to host host-41
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-89 from host host-187 to host host-1
+2024/07/26 14:24:57 Migrated container container-89 from host host-187 to host host-1
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-22 from host host-23 to host host-320
+2024/07/26 14:24:57 Migrated container container-22 from host host-23 to host host-320
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-53 from host host-88 to host host-162
+2024/07/26 14:24:57 Migrated container container-53 from host host-88 to host host-162
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-42 from host host-264 to host host-152
+2024/07/26 14:24:57 Migrated container container-42 from host host-264 to host host-152
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-17 from host host-297 to host host-4
+2024/07/26 14:24:57 Migrated container container-17 from host host-297 to host host-4
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-44 from host host-52 to host host-402
+2024/07/26 14:24:57 Migrated container container-44 from host host-52 to host host-402
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-99 from host host-433 to host host-83
+2024/07/26 14:24:57 Migrated container container-99 from host host-433 to host host-83
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-52 from host host-34 to host host-157
+2024/07/26 14:24:57 Migrated container container-52 from host host-34 to host host-157
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-39 from host host-89 to host host-7
+2024/07/26 14:24:57 Migrated container container-39 from host host-89 to host host-7
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-60 from host host-60 to host host-410
+2024/07/26 14:24:57 Migrated container container-60 from host host-60 to host host-410
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-96 from host host-498 to host host-148
+2024/07/26 14:24:57 Migrated container container-96 from host host-498 to host host-148
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-85 from host host-62 to host host-88
+2024/07/26 14:24:57 Migrated container container-85 from host host-62 to host host-88
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-100 from host host-13 to host host-173
+2024/07/26 14:24:57 Migrated container container-100 from host host-13 to host host-173
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-46 from host host-50 to host host-31
+2024/07/26 14:24:57 Migrated container container-46 from host host-50 to host host-31
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-36 from host host-64 to host host-89
+2024/07/26 14:24:57 Migrated container container-36 from host host-64 to host host-89
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-69 from host host-281 to host host-13
+2024/07/26 14:24:57 Migrated container container-69 from host host-281 to host host-13
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-94 from host host-213 to host host-563
+2024/07/26 14:24:57 Migrated container container-94 from host host-213 to host host-563
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-43 from host host-5 to host host-193
+2024/07/26 14:24:57 Migrated container container-43 from host host-5 to host host-193
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-85 from host host-97 to host host-60
+2024/07/26 14:24:57 Migrated container container-85 from host host-97 to host host-60
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-93 from host host-87 to host host-297
+2024/07/26 14:24:57 Migrated container container-93 from host host-87 to host host-297
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-3 from host host-56 to host host-5
+2024/07/26 14:24:57 Migrated container container-3 from host host-56 to host host-5
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-64 from host host-27 to host host-250
+2024/07/26 14:24:57 Migrated container container-64 from host host-27 to host host-250
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-65 from host host-169 to host host-45
+2024/07/26 14:24:57 Migrated container container-65 from host host-169 to host host-45
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-95 from host host-129 to host host-479
+2024/07/26 14:24:57 Migrated container container-95 from host host-129 to host host-479
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-16 from host host-22 to host host-27
+2024/07/26 14:24:57 Migrated container container-16 from host host-22 to host host-27
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-88 from host host-367 to host host-128
+2024/07/26 14:24:57 Migrated container container-88 from host host-367 to host host-128
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-45 from host host-220 to host host-367
+2024/07/26 14:24:57 Migrated container container-45 from host host-220 to host host-367
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-14 from host host-155 to host host-264
+2024/07/26 14:24:57 Migrated container container-14 from host host-155 to host host-264
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-77 from host host-587 to host host-220
+2024/07/26 14:24:57 Migrated container container-77 from host host-587 to host host-220
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-47 from host host-15 to host host-22
+2024/07/26 14:24:57 Migrated container container-47 from host host-15 to host host-22
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-57 from host host-153 to host host-408
+2024/07/26 14:24:57 Migrated container container-57 from host host-153 to host host-408
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-41 from host host-110 to host host-56
+2024/07/26 14:24:57 Migrated container container-41 from host host-110 to host host-56
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-34 from host host-589 to host host-239
+2024/07/26 14:24:57 Migrated container container-34 from host host-589 to host host-239
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-32 from host host-287 to host host-50
+2024/07/26 14:24:57 Migrated container container-32 from host host-287 to host host-50
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-2 from host host-69 to host host-287
+2024/07/26 14:24:57 Migrated container container-2 from host host-69 to host host-287
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-30 from host host-150 to host host-317
+2024/07/26 14:24:57 Migrated container container-30 from host host-150 to host host-317
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-2 from host host-99 to host host-69
+2024/07/26 14:24:57 Migrated container container-2 from host host-99 to host host-69
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-19 from host host-57 to host host-344
+2024/07/26 14:24:57 Migrated container container-19 from host host-57 to host host-344
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-30 from host host-544 to host host-23
+2024/07/26 14:24:57 Migrated container container-30 from host host-544 to host host-23
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-79 from host host-111 to host host-155
+2024/07/26 14:24:57 Migrated container container-79 from host host-111 to host host-155
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-2 from host host-30 to host host-370
+2024/07/26 14:24:57 Migrated container container-2 from host host-30 to host host-370
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-63 from host host-19 to host host-316
+2024/07/26 14:24:57 Migrated container container-63 from host host-19 to host host-316
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-30 from host host-115 to host host-110
+2024/07/26 14:24:57 Migrated container container-30 from host host-115 to host host-110
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-24 from host host-9 to host host-19
+2024/07/26 14:24:57 Migrated container container-24 from host host-9 to host host-19
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-30 from host host-144 to host host-57
+2024/07/26 14:24:57 Migrated container container-30 from host host-144 to host host-57
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-63 from host host-72 to host host-666
+2024/07/26 14:24:57 Migrated container container-63 from host host-72 to host host-666
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-30 from host host-319 to host host-364
+2024/07/26 14:24:57 Migrated container container-30 from host host-319 to host host-364
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-30 from host host-49 to host host-319
+2024/07/26 14:24:57 Migrated container container-30 from host host-49 to host host-319
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-79 from host host-17 to host host-270
+2024/07/26 14:24:57 Migrated container container-79 from host host-17 to host host-270
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-30 from host host-70 to host host-144
+2024/07/26 14:24:57 Migrated container container-30 from host host-70 to host host-144
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-15 from host host-307 to host host-356
+2024/07/26 14:24:57 Migrated container container-15 from host host-307 to host host-356
+2024/07/26 14:24:57 Time: 14:24:57, Migrated container container-18 from host host-14 to host host-587
+2024/07/26 14:24:57 Migrated container container-18 from host host-14 to host host-587
+2024/07/26 14:25:28 Workload changed. Triggering reallocation...
+2024/07/26 14:25:28 Triggering reallocation due to QoS violation
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-76 from host host-3 to host host-14
+2024/07/26 14:25:28 Migrated container container-76 from host host-3 to host host-14
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-66 from host host-192 to host host-523
+2024/07/26 14:25:28 Migrated container container-66 from host host-192 to host host-523
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-21 from host host-494 to host host-72
+2024/07/26 14:25:28 Migrated container container-21 from host host-494 to host host-72
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-89 from host host-1 to host host-17
+2024/07/26 14:25:28 Migrated container container-89 from host host-1 to host host-17
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-53 from host host-162 to host host-153
+2024/07/26 14:25:28 Migrated container container-53 from host host-162 to host host-153
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-20 from host host-33 to host host-109
+2024/07/26 14:25:28 Migrated container container-20 from host host-33 to host host-109
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-54 from host host-6 to host host-62
+2024/07/26 14:25:28 Migrated container container-54 from host host-6 to host host-62
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-11 from host host-20 to host host-6
+2024/07/26 14:25:28 Migrated container container-11 from host host-20 to host host-6
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-22 from host host-320 to host host-3
+2024/07/26 14:25:28 Migrated container container-22 from host host-320 to host host-3
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-10 from host host-182 to host host-372
+2024/07/26 14:25:28 Migrated container container-10 from host host-182 to host host-372
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-78 from host host-100 to host host-577
+2024/07/26 14:25:28 Migrated container container-78 from host host-100 to host host-577
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-61 from host host-43 to host host-393
+2024/07/26 14:25:28 Migrated container container-61 from host host-43 to host host-393
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-28 from host host-450 to host host-100
+2024/07/26 14:25:28 Migrated container container-28 from host host-450 to host host-100
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-29 from host host-41 to host host-391
+2024/07/26 14:25:28 Migrated container container-29 from host host-41 to host host-391
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-12 from host host-26 to host host-588
+2024/07/26 14:25:28 Migrated container container-12 from host host-26 to host host-588
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-96 from host host-148 to host host-498
+2024/07/26 14:25:28 Migrated container container-96 from host host-148 to host host-498
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-97 from host host-233 to host host-187
+2024/07/26 14:25:28 Migrated container container-97 from host host-233 to host host-187
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-99 from host host-83 to host host-87
+2024/07/26 14:25:28 Migrated container container-99 from host host-83 to host host-87
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-8 from host host-472 to host host-494
+2024/07/26 14:25:28 Migrated container container-8 from host host-472 to host host-494
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-42 from host host-152 to host host-20
+2024/07/26 14:25:28 Migrated container container-42 from host host-152 to host host-20
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-100 from host host-173 to host host-9
+2024/07/26 14:25:28 Migrated container container-100 from host host-173 to host host-9
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-62 from host host-10 to host host-129
+2024/07/26 14:25:28 Migrated container container-62 from host host-10 to host host-129
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-81 from host host-334 to host host-26
+2024/07/26 14:25:28 Migrated container container-81 from host host-334 to host host-26
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-31 from host host-168 to host host-518
+2024/07/26 14:25:28 Migrated container container-31 from host host-168 to host host-518
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-73 from host host-53 to host host-307
+2024/07/26 14:25:28 Migrated container container-73 from host host-53 to host host-307
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-44 from host host-402 to host host-52
+2024/07/26 14:25:28 Migrated container container-44 from host host-402 to host host-52
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-65 from host host-45 to host host-334
+2024/07/26 14:25:28 Migrated container container-65 from host host-45 to host host-334
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-80 from host host-395 to host host-45
+2024/07/26 14:25:28 Migrated container container-80 from host host-395 to host host-45
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-55 from host host-194 to host host-544
+2024/07/26 14:25:28 Migrated container container-55 from host host-194 to host host-544
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-13 from host host-437 to host host-618
+2024/07/26 14:25:28 Migrated container container-13 from host host-437 to host host-618
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-46 from host host-31 to host host-349
+2024/07/26 14:25:28 Migrated container container-46 from host host-31 to host host-349
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-60 from host host-410 to host host-472
+2024/07/26 14:25:28 Migrated container container-60 from host host-410 to host host-472
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-36 from host host-89 to host host-1
+2024/07/26 14:25:28 Migrated container container-36 from host host-89 to host host-1
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-90 from host host-369 to host host-41
+2024/07/26 14:25:28 Migrated container container-90 from host host-369 to host host-41
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-16 from host host-27 to host host-115
+2024/07/26 14:25:28 Migrated container container-16 from host host-27 to host host-115
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-37 from host host-268 to host host-27
+2024/07/26 14:25:28 Migrated container container-37 from host host-268 to host host-27
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-88 from host host-128 to host host-111
+2024/07/26 14:25:28 Migrated container container-88 from host host-128 to host host-111
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-93 from host host-297 to host host-10
+2024/07/26 14:25:28 Migrated container container-93 from host host-297 to host host-10
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-17 from host host-4 to host host-34
+2024/07/26 14:25:28 Migrated container container-17 from host host-4 to host host-34
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-52 from host host-157 to host host-89
+2024/07/26 14:25:28 Migrated container container-52 from host host-157 to host host-89
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-43 from host host-193 to host host-343
+2024/07/26 14:25:28 Migrated container container-43 from host host-193 to host host-343
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-77 from host host-619 to host host-173
+2024/07/26 14:25:28 Migrated container container-77 from host host-619 to host host-173
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-69 from host host-13 to host host-152
+2024/07/26 14:25:28 Migrated container container-69 from host host-13 to host host-152
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-12 from host host-238 to host host-619
+2024/07/26 14:25:28 Migrated container container-12 from host host-238 to host host-619
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-2 from host host-370 to host host-13
+2024/07/26 14:25:28 Migrated container container-2 from host host-370 to host host-13
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-7 from host host-230 to host host-33
+2024/07/26 14:25:28 Migrated container container-7 from host host-230 to host host-33
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-30 from host host-317 to host host-168
+2024/07/26 14:25:28 Migrated container container-30 from host host-317 to host host-168
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-23 from host host-257 to host host-607
+2024/07/26 14:25:28 Migrated container container-23 from host host-257 to host host-607
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-82 from host host-2 to host host-31
+2024/07/26 14:25:28 Migrated container container-82 from host host-2 to host host-31
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-64 from host host-250 to host host-295
+2024/07/26 14:25:28 Migrated container container-64 from host host-250 to host host-295
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-54 from host host-8 to host host-53
+2024/07/26 14:25:28 Migrated container container-54 from host host-8 to host host-53
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-39 from host host-7 to host host-49
+2024/07/26 14:25:28 Migrated container container-39 from host host-7 to host host-49
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-77 from host host-220 to host host-7
+2024/07/26 14:25:28 Migrated container container-77 from host host-220 to host host-7
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-3 from host host-5 to host host-193
+2024/07/26 14:25:28 Migrated container container-3 from host host-5 to host host-193
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-45 from host host-367 to host host-128
+2024/07/26 14:25:28 Migrated container container-45 from host host-367 to host host-128
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-32 from host host-50 to host host-5
+2024/07/26 14:25:28 Migrated container container-32 from host host-50 to host host-5
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-47 from host host-22 to host host-43
+2024/07/26 14:25:28 Migrated container container-47 from host host-22 to host host-43
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-30 from host host-23 to host host-268
+2024/07/26 14:25:28 Migrated container container-30 from host host-23 to host host-268
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-85 from host host-60 to host host-410
+2024/07/26 14:25:28 Migrated container container-85 from host host-60 to host host-410
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-2 from host host-69 to host host-318
+2024/07/26 14:25:28 Migrated container container-2 from host host-69 to host host-318
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-19 from host host-344 to host host-694
+2024/07/26 14:25:28 Migrated container container-19 from host host-344 to host host-694
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-30 from host host-110 to host host-2
+2024/07/26 14:25:28 Migrated container container-30 from host host-110 to host host-2
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-14 from host host-264 to host host-297
+2024/07/26 14:25:28 Migrated container container-14 from host host-264 to host host-297
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-41 from host host-56 to host host-8
+2024/07/26 14:25:28 Migrated container container-41 from host host-56 to host host-8
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-85 from host host-88 to host host-60
+2024/07/26 14:25:28 Migrated container container-85 from host host-88 to host host-60
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-30 from host host-144 to host host-22
+2024/07/26 14:25:28 Migrated container container-30 from host host-144 to host host-22
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-30 from host host-319 to host host-50
+2024/07/26 14:25:28 Migrated container container-30 from host host-319 to host host-50
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-79 from host host-155 to host host-620
+2024/07/26 14:25:28 Migrated container container-79 from host host-155 to host host-620
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-2 from host host-287 to host host-668
+2024/07/26 14:25:28 Migrated container container-2 from host host-287 to host host-668
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-30 from host host-57 to host host-83
+2024/07/26 14:25:28 Migrated container container-30 from host host-57 to host host-83
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-30 from host host-364 to host host-144
+2024/07/26 14:25:28 Migrated container container-30 from host host-364 to host host-144
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-34 from host host-239 to host host-220
+2024/07/26 14:25:28 Migrated container container-34 from host host-239 to host host-220
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-94 from host host-563 to host host-194
+2024/07/26 14:25:28 Migrated container container-94 from host host-563 to host host-194
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-24 from host host-19 to host host-4
+2024/07/26 14:25:28 Migrated container container-24 from host host-19 to host host-4
+2024/07/26 14:25:28 Time: 14:25:28, Migrated container container-15 from host host-356 to host host-11
+2024/07/26 14:25:28 Migrated container container-15 from host host-356 to host host-11
+2024/07/26 14:25:57 Final metrics: {CPUUsage:2.360537439382137 MemoryUsage:1.7349726038709812 GPUUsage:10.559769575961694 IOUsage:50}
+2024/07/26 14:25:57 QoS requirements met.
+2024/07/26 14:25:57 Priority simulation complete.
+2024/07/26 14:25:58 Workload changed. Triggering reallocation...
+2024/07/26 14:25:58 Triggering reallocation due to QoS violation
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-11 from host host-6 to host host-16
+2024/07/26 14:25:58 Migrated container container-11 from host host-6 to host host-16
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-8 from host host-6 to host host-233
+2024/07/26 14:25:58 Migrated container container-8 from host host-6 to host host-233
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-81 from host host-6 to host host-56
+2024/07/26 14:25:58 Migrated container container-81 from host host-6 to host host-56
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-37 from host host-6 to host host-155
+2024/07/26 14:25:58 Migrated container container-37 from host host-6 to host host-155
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-54 from host host-6 to host host-356
+2024/07/26 14:25:58 Migrated container container-54 from host host-6 to host host-356
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-30 from host host-6 to host host-250
+2024/07/26 14:25:58 Migrated container container-30 from host host-6 to host host-250
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-30 from host host-6 to host host-264
+2024/07/26 14:25:58 Migrated container container-30 from host host-6 to host host-264
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-30 from host host-6 to host host-347
+2024/07/26 14:25:58 Migrated container container-30 from host host-6 to host host-347
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-30 from host host-6 to host host-697
+2024/07/26 14:25:58 Migrated container container-30 from host host-6 to host host-697
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-45 from host host-92 to host host-461
+2024/07/26 14:25:58 Migrated container container-45 from host host-92 to host host-461
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-78 from host host-12 to host host-150
+2024/07/26 14:25:58 Migrated container container-78 from host host-12 to host host-150
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-65 from host host-12 to host host-246
+2024/07/26 14:25:58 Migrated container container-65 from host host-12 to host host-246
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-64 from host host-12 to host host-645
+2024/07/26 14:25:58 Migrated container container-64 from host host-12 to host host-645
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-36 from host host-1 to host host-81
+2024/07/26 14:25:58 Migrated container container-36 from host host-1 to host host-81
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-13 from host host-1 to host host-23
+2024/07/26 14:25:58 Migrated container container-13 from host host-1 to host host-23
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-52 from host host-1 to host host-15
+2024/07/26 14:25:58 Migrated container container-52 from host host-1 to host host-15
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-52 from host host-1 to host host-88
+2024/07/26 14:25:58 Migrated container container-52 from host host-1 to host host-88
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-52 from host host-1 to host host-162
+2024/07/26 14:25:58 Migrated container container-52 from host host-1 to host host-162
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-10 from host host-372 to host host-94
+2024/07/26 14:25:58 Migrated container container-10 from host host-372 to host host-94
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-22 from host host-3 to host host-192
+2024/07/26 14:25:58 Migrated container container-22 from host host-3 to host host-192
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-22 from host host-3 to host host-542
+2024/07/26 14:25:58 Migrated container container-22 from host host-3 to host host-542
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-22 from host host-3 to host host-659
+2024/07/26 14:25:58 Migrated container container-22 from host host-3 to host host-659
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-89 from host host-17 to host host-248
+2024/07/26 14:25:58 Migrated container container-89 from host host-17 to host host-248
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-61 from host host-17 to host host-367
+2024/07/26 14:25:58 Migrated container container-61 from host host-17 to host host-367
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-47 from host host-17 to host host-369
+2024/07/26 14:25:58 Migrated container container-47 from host host-17 to host host-369
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-34 from host host-17 to host host-545
+2024/07/26 14:25:58 Migrated container container-34 from host host-17 to host host-545
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-28 from host host-47 to host host-450
+2024/07/26 14:25:58 Migrated container container-28 from host host-47 to host host-450
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-85 from host host-47 to host host-684
+2024/07/26 14:25:58 Migrated container container-85 from host host-47 to host host-684
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-85 from host host-47 to host host-281
+2024/07/26 14:25:58 Migrated container container-85 from host host-47 to host host-281
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-99 from host host-87 to host host-437
+2024/07/26 14:25:58 Migrated container container-99 from host host-87 to host host-437
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-99 from host host-87 to host host-647
+2024/07/26 14:25:58 Migrated container container-99 from host host-87 to host host-647
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-11 from host host-2 to host host-28
+2024/07/26 14:25:58 Migrated container container-11 from host host-2 to host host-28
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-16 from host host-2 to host host-30
+2024/07/26 14:25:58 Migrated container container-16 from host host-2 to host host-30
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-14 from host host-2 to host host-36
+2024/07/26 14:25:58 Migrated container container-14 from host host-2 to host host-36
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-14 from host host-2 to host host-40
+2024/07/26 14:25:58 Migrated container container-14 from host host-2 to host host-40
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-81 from host host-26 to host host-35
+2024/07/26 14:25:58 Migrated container container-81 from host host-26 to host host-35
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-80 from host host-45 to host host-395
+2024/07/26 14:25:58 Migrated container container-80 from host host-45 to host host-395
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-8 from host host-494 to host host-325
+2024/07/26 14:25:58 Migrated container container-8 from host host-494 to host host-325
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-37 from host host-27 to host host-502
+2024/07/26 14:25:58 Migrated container container-37 from host host-27 to host host-502
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-3 from host host-103 to host host-505
+2024/07/26 14:25:58 Migrated container container-3 from host host-103 to host host-505
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-76 from host host-14 to host host-364
+2024/07/26 14:25:58 Migrated container container-76 from host host-14 to host host-364
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-7 from host host-33 to host host-123
+2024/07/26 14:25:58 Migrated container container-7 from host host-33 to host host-123
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-32 from host host-5 to host host-87
+2024/07/26 14:25:58 Migrated container container-32 from host host-5 to host host-87
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-46 from host host-5 to host host-26
+2024/07/26 14:25:58 Migrated container container-46 from host host-5 to host host-26
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-53 from host host-19 to host host-503
+2024/07/26 14:25:58 Migrated container container-53 from host host-19 to host host-503
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-60 from host host-19 to host host-494
+2024/07/26 14:25:58 Migrated container container-60 from host host-19 to host host-494
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-42 from host host-20 to host host-19
+2024/07/26 14:25:58 Migrated container container-42 from host host-20 to host host-19
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-73 from host host-307 to host host-657
+2024/07/26 14:25:58 Migrated container container-73 from host host-307 to host host-657
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-20 from host host-109 to host host-20
+2024/07/26 14:25:58 Migrated container container-20 from host host-109 to host host-20
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-44 from host host-52 to host host-402
+2024/07/26 14:25:58 Migrated container container-44 from host host-52 to host host-402
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-39 from host host-29 to host host-230
+2024/07/26 14:25:58 Migrated container container-39 from host host-29 to host host-230
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-54 from host host-62 to host host-27
+2024/07/26 14:25:58 Migrated container container-54 from host host-62 to host host-27
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-82 from host host-31 to host host-381
+2024/07/26 14:25:58 Migrated container container-82 from host host-31 to host host-381
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-82 from host host-31 to host host-699
+2024/07/26 14:25:58 Migrated container container-82 from host host-31 to host host-699
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-13 from host host-618 to host host-110
+2024/07/26 14:25:58 Migrated container container-13 from host host-618 to host host-110
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-31 from host host-168 to host host-618
+2024/07/26 14:25:58 Migrated container container-31 from host host-168 to host host-618
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-78 from host host-577 to host host-57
+2024/07/26 14:25:58 Migrated container container-78 from host host-577 to host host-57
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-69 from host host-152 to host host-90
+2024/07/26 14:25:58 Migrated container container-69 from host host-152 to host host-90
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-97 from host host-187 to host host-31
+2024/07/26 14:25:58 Migrated container container-97 from host host-187 to host host-31
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-3 from host host-193 to host host-152
+2024/07/26 14:25:58 Migrated container container-3 from host host-193 to host host-152
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-77 from host host-173 to host host-64
+2024/07/26 14:25:58 Migrated container container-77 from host host-173 to host host-64
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-24 from host host-4 to host host-101
+2024/07/26 14:25:58 Migrated container container-24 from host host-4 to host host-101
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-24 from host host-4 to host host-33
+2024/07/26 14:25:58 Migrated container container-24 from host host-4 to host host-33
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-24 from host host-4 to host host-109
+2024/07/26 14:25:58 Migrated container container-24 from host host-4 to host host-109
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-66 from host host-523 to host host-69
+2024/07/26 14:25:58 Migrated container container-66 from host host-523 to host host-69
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-100 from host host-9 to host host-139
+2024/07/26 14:25:58 Migrated container container-100 from host host-9 to host host-139
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-100 from host host-9 to host host-117
+2024/07/26 14:25:58 Migrated container container-100 from host host-9 to host host-117
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-61 from host host-393 to host host-439
+2024/07/26 14:25:58 Migrated container container-61 from host host-393 to host host-439
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-28 from host host-100 to host host-577
+2024/07/26 14:25:58 Migrated container container-28 from host host-100 to host host-577
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-7 from host host-13 to host host-9
+2024/07/26 14:25:58 Migrated container container-7 from host host-13 to host host-9
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-85 from host host-410 to host host-131
+2024/07/26 14:25:58 Migrated container container-85 from host host-410 to host host-131
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-47 from host host-43 to host host-97
+2024/07/26 14:25:58 Migrated container container-47 from host host-43 to host host-97
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-93 from host host-10 to host host-360
+2024/07/26 14:25:58 Migrated container container-93 from host host-10 to host host-360
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-15 from host host-10 to host host-96
+2024/07/26 14:25:58 Migrated container container-15 from host host-10 to host host-96
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-15 from host host-10 to host host-66
+2024/07/26 14:25:58 Migrated container container-15 from host host-10 to host host-66
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-77 from host host-7 to host host-43
+2024/07/26 14:25:58 Migrated container container-77 from host host-7 to host host-43
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-46 from host host-349 to host host-99
+2024/07/26 14:25:58 Migrated container container-46 from host host-349 to host host-99
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-45 from host host-128 to host host-349
+2024/07/26 14:25:58 Migrated container container-45 from host host-128 to host host-349
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-14 from host host-297 to host host-105
+2024/07/26 14:25:58 Migrated container container-14 from host host-297 to host host-105
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-52 from host host-89 to host host-238
+2024/07/26 14:25:58 Migrated container container-52 from host host-89 to host host-238
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-54 from host host-53 to host host-173
+2024/07/26 14:25:58 Migrated container container-54 from host host-53 to host host-173
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-21 from host host-72 to host host-297
+2024/07/26 14:25:58 Migrated container container-21 from host host-72 to host host-297
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-17 from host host-34 to host host-89
+2024/07/26 14:25:58 Migrated container container-17 from host host-34 to host host-89
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-19 from host host-694 to host host-344
+2024/07/26 14:25:58 Migrated container container-19 from host host-694 to host host-344
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-43 from host host-343 to host host-118
+2024/07/26 14:25:58 Migrated container container-43 from host host-343 to host host-118
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-60 from host host-472 to host host-72
+2024/07/26 14:25:58 Migrated container container-60 from host host-472 to host host-72
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-57 from host host-58 to host host-472
+2024/07/26 14:25:58 Migrated container container-57 from host host-58 to host host-472
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-85 from host host-60 to host host-159
+2024/07/26 14:25:58 Migrated container container-85 from host host-60 to host host-159
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-39 from host host-49 to host host-60
+2024/07/26 14:25:58 Migrated container container-39 from host host-49 to host host-60
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-16 from host host-115 to host host-49
+2024/07/26 14:25:58 Migrated container container-16 from host host-115 to host host-49
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-65 from host host-334 to host host-44
+2024/07/26 14:25:58 Migrated container container-65 from host host-334 to host host-44
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-15 from host host-11 to host host-7
+2024/07/26 14:25:58 Migrated container container-15 from host host-11 to host host-7
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-19 from host host-319 to host host-694
+2024/07/26 14:25:58 Migrated container container-19 from host host-319 to host host-694
+2024/07/26 14:25:58 Time: 14:25:58, Migrated container container-41 from host host-8 to host host-53
+2024/07/26 14:25:58 Migrated container container-41 from host host-8 to host host-53

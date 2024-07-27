@@ -1,0 +1,5 @@
+    simulationDuration     = 5 * time.Minute
+    workloadChangeInterval = 30 * time.Second
+    numHosts               = 100 // Number of hosts
+    numGPUs                = 200 // Number of GPUs
+    numContainers          = 500 // Number of containers

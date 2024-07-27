@@ -1,0 +1,37 @@
+2024/07/26 15:24:09 Starting RoundRobin simulation
+2024/07/26 15:24:09 Starting orchestrator run
+2024/07/26 15:24:09 Starting QoS monitoring
+2024/07/26 15:24:09 Starting metrics collection
+2024/07/26 15:24:19 Time: 15:24:19, CPU: 27.11%, Memory: 19.98%, GPU: 36.37%
+2024/07/26 15:24:29 Time: 15:24:29, CPU: 27.11%, Memory: 19.98%, GPU: 36.37%
+2024/07/26 15:24:39 Time: 15:24:39, CPU: 27.11%, Memory: 19.98%, GPU: 36.37%
+2024/07/26 15:24:49 Time: 15:24:49, CPU: 27.11%, Memory: 19.98%, GPU: 36.37%
+2024/07/26 15:24:59 Time: 15:24:59, CPU: 27.11%, Memory: 19.98%, GPU: 36.37%
+2024/07/26 15:25:09 Time: 15:25:09, CPU: 27.11%, Memory: 19.98%, GPU: 36.37%
+2024/07/26 15:25:19 Time: 15:25:19, CPU: 27.11%, Memory: 19.98%, GPU: 36.37%
+2024/07/26 15:25:29 Time: 15:25:29, CPU: 27.11%, Memory: 19.98%, GPU: 36.37%
+2024/07/26 15:25:39 Time: 15:25:39, CPU: 27.11%, Memory: 19.98%, GPU: 36.37%
+2024/07/26 15:25:49 Time: 15:25:49, CPU: 27.11%, Memory: 19.98%, GPU: 36.37%
+2024/07/26 15:25:59 Time: 15:25:59, CPU: 27.11%, Memory: 19.98%, GPU: 36.37%
+2024/07/26 15:26:09 Time: 15:26:09, CPU: 27.11%, Memory: 19.98%, GPU: 36.37%
+2024/07/26 15:26:19 Time: 15:26:19, CPU: 27.11%, Memory: 19.98%, GPU: 36.37%
+2024/07/26 15:26:29 Time: 15:26:29, CPU: 27.11%, Memory: 19.98%, GPU: 36.37%
+2024/07/26 15:26:39 Time: 15:26:39, CPU: 27.11%, Memory: 19.98%, GPU: 36.37%
+2024/07/26 15:26:49 Time: 15:26:49, CPU: 27.11%, Memory: 19.98%, GPU: 36.37%
+2024/07/26 15:26:59 Time: 15:26:59, CPU: 27.11%, Memory: 19.98%, GPU: 36.37%
+2024/07/26 15:27:09 Orchestrator run completed
+2024/07/26 15:27:39 Workload changed. Triggering reallocation...
+2024/07/26 15:27:39 Triggering reallocation due to QoS violation
+2024/07/26 15:28:09 Workload changed. Triggering reallocation...
+2024/07/26 15:28:09 Triggering reallocation due to QoS violation
+2024/07/26 15:28:40 Workload changed. Triggering reallocation...
+2024/07/26 15:28:40 Triggering reallocation due to QoS violation
+2024/07/26 15:29:09 Workload changed. Triggering reallocation...
+2024/07/26 15:29:09 Triggering reallocation due to QoS violation
+2024/07/26 15:29:39 Workload changed. Triggering reallocation...
+2024/07/26 15:29:39 Triggering reallocation due to QoS violation
+2024/07/26 15:29:39 Time: 15:29:39, Migrated container container-328 from host host-73 to host host-391
+2024/07/26 15:29:39 Migrated container container-328 from host host-73 to host host-391
+2024/07/26 15:30:09 Final metrics: {CPUUsage:26.88017754960835 MemoryUsage:19.838392313676827 GPUUsage:36.382434829885284 IOUsage:50}
+2024/07/26 15:30:09 QoS requirements met.
+2024/07/26 15:30:09 RoundRobin simulation complete.
